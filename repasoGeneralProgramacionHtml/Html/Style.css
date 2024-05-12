@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(to right, skyblue 20%, rgb(180, 180, 245) 51%);
+}
+
+
+.contenedor-cabeza {
+    text-align: center;
+    text-decoration: none; 
+    color: aquamarine;
+    text-shadow: 4px 4px 4px black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Alinea a la derecha */
+}
+
+nav li {
+    text-decoration: none;
+    display: inline; /* Muestra los elementos en línea */
+    margin-right: 40px; /* Espacio entre elementos de la lista */
+    margin-top: 0; /* Elimina el espacio superior */
+}
+
+.contenedor-cabeza h2{
+    color: aquamarine;
+    text-shadow: 5px 5px 5px black;
+}
+
+.contenedor-cabeza img {
+    max-width: 60px;
+    /* con el display movemos la imagen a la izquierda */
+    display: flex;
+}
+
+.contenedor-cabeza-decoracion {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor-principal img{
+    max-width: 150px;
+
+}
+
+.imagen1 {
+    float: left;
+    margin-left: 20px;
+    margin: 50px auto;
+
+}
+
+.imagen2 {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 150px;
+}
+.imagen3 {
+float: right;
+margin-right: 20px;
+margin: -200px auto;
+}
+
+.contenedor-secundario {
+    margin: 425px;
+    display: inline;
+    text-align: center;
+    align-items: center;
+}
+
+.contenedor-formulario {
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    /* con lo de abajo creas una caja */
+    border-radius: 8px;
+    box-shadow: 4px 3px 8px;
+    /* hasta aqui para hacer la caja */
+    padding: 50px;
+}
+
+
+.contenedor-formulario label {
+    text-shadow: 4px 4px 4px black;
+}
+
+.return-page {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+
+.return-page-inicio {
+    /* con ele stilo float lo alineo a la derecha de la pagina */
+    float: right;
+}
+
+
+
+

@@ -1,0 +1,280 @@
+ ----------
+|08/01/2024|
+ ----------
+-Primer paquete de la segunda evaluacion de repaso.
+
+ ----------
+|09/01/2024|
+ ----------
+-PostIncremento2 hecho para probar con a++ y ++b.
+-Indicar si un numero esta en ese array o no
+
+ ----------
+|10/01/2024|
+ ----------
+-Hacemos la clase donde buscamos un valor que se repita en 2 Arrays diferentes.
+-Hechas las clase Busqueda y Busqueda2.
+-Creamos la clase Persona y la clase testPersona.
+
+ ----------
+|11/01/2024|
+ ----------
+-Correccion de la practica de Planeta.
+-Hacer la misma con nuevos atributos para mañana.
+-Hacer la clase automovil.
+
+ ----------
+|15/01/2024|
+ ----------
+-Correcion de la clase automovil.
+-Manda poner un atributo para saber si el coche es automatico.
+
+ ----------
+|16/01/2024|
+ ----------
+-Nos sube las clases Circulo, Rectangulo y Cuadrado.
+-Hace el testeo de las clases donde crea 4 figuras.
+-Empezamos con el ejemplo2_5
+
+ ----------
+|18/01/2024|
+ ----------
+-Mirar la clase cuenta y hacer su test.
+-Clase pelicula y hacer sus metodos.
+-Clase Avion y hacemos sus tests.
+-Practica para hacer de metodos de conversion para Objetos
+
+ ----------
+|19/01/2024|
+ ----------
+-Tenemos las clases de los metodos de conversion.
+-Hacemos el ejemplo 2_10 donde tenemos la clase pedido y con su respectivo test.
+
+ ----------
+|22/01/2024|
+ ----------
+-Terminar el ejemplo2_10
+-Empezamos con el ejemplo2_11.
+-Hacemos la clase ArticuloCientifico y hacemos su testeo.
+-Por ultimo hicimos la clase caja con su test caja.
+
+ ----------
+|23/01/2024|
+ ----------
+-Hacemos el ejemplo 3_1 donde creamos la clase atleta.
+-Despues hicimos la clase testAtleta
+
+ ----------
+|24/01/2024|
+ ----------
+-Creamos el ejemplo3_2 y hacemos la clase cadena.
+
+ ----------
+|25/01/2024|
+ ----------
+-Seguimos con la clase CadenaBis.
+-Clase MuestraCaracteres.
+-Hacemos varias practicas de retos.
+-Clase para leer un entero.
+
+ ----------
+|26/01/2024|
+ ----------
+-Primera clase q la llamamos LecturaFrase.
+-Hacemos la clase palindromo donde pasamos una cadena y nos dice si al darle la vuelta dice lo mismo.
+-Lo vimos con el cosntructor de string builder y usando el equals para comparar la frase y su reves.
+
+ ----------
+|29/01/2024|
+ ----------
+-Hacemos el reto3 y reto2. 
+-Tambien hicimos la clase AdivinaPalabra.
+
+ ----------
+|30/01/2024|
+ ----------
+-Escoger si en el juego de Adivina palabra teniamos que utilizar el AND o el OR.
+-Clase InvertirNumero, donde probamos los metodos de Stringbuilder y el String.valueOf().
+-Clase TroceandoCadenas.
+-Reto7 para hacer la clase, con el metodo split.
+
+ ----------
+|31/01/2024|
+ ----------
+-Creamos la clase envoltorio.
+-En la clase OrdenarArray creamos un char donde le pasamos una cadena con un toCharArray.
+-Con el metodo sort ordenamos alfabeticamente la cadena.ç
+-Creamos el paquete ejemplo3_5 donde creamos la clase Medicamento.
+
+ ----------
+|01/02/2024|
+ ----------
+-Hicimos la clase medicamento y dentro tiene la clase posologia, en el testeo para crear un objeto de posologia
+ tienes que declararlo con la clase principal que es la de Medicamento.
+-Hacemos la clase paquete.
+-Creamos el testPaquete donde creamos el paquete y luego con la persona haciendo de paquete también.
+
+ ----------
+|02/02/2024|
+ ----------
+-Subió el paquete y el testPaquete.
+-Vamos a crear un Array de objetos.
+-Creamos la clase Computadora y Tienda.
+-Tarea de los ejercicios para hacer su testeo.
+
+ ----------
+|05/02/2024|
+ ----------
+-Hacemos el testTienda, para crear los objetos de las clases tienda y computador.
+-Revisar esta practica, viendo las dos clases y su testeo.
+-Creamos el paquete Coleccion.
+-Y creamos dentro la clase Disco.
+
+ ----------
+|06/02/2024|
+ ----------
+-Clase disco, intentar corregir el metodo de añadir.
+
+ ----------
+|07/02/2024|
+ ----------
+-Repaso de Arrays.
+-Paquete Rayas donde haremos el repaso.
+-System.console().readLine()
+-Lo anterior no se utiliza.
+-Creando varias clases de ejemplos de repaso de arrays.
+-Throw InterruptedException, para genearr un throw sleep para esperar un X tiempo.
+-Clase de BuscaTesoro.
+-Paquete creado llamado EjerciciosRayas, con la primera clase de practica.
+
+ ----------
+|08/02/2024|
+ ----------
+-Hacemos el ejercicio2 donde creamos un array de caracteres.
+-Ejercicio3 donde pasamos 10 valores a un array y le damos la vuelta usando oto bucle for.
+-Ejercicio4 donde pasamos un Array con valores aleatorios y donde hacemos el cuadrado y el cubo usando el Math.pow().
+-Ejercicio 5 donde pedimos 10 valores por teclado y el valor mas alto se mostrará maximo y con el mas pequeño se mostrará
+ minimo.
+
+ ----------
+|15/02/2024|
+ ----------
+-Luis me pasó un boletin con los 10 ejercicios donde continuaré haciendolos.
+-Ejercicio14 en el paquete de ejercicios de Arrays.
+-Dejamos el Ejercicio15 sin hacer.
+
+ ----------
+|16/02/2024|
+ ----------
+-Dos ejercicios hechos en la hora de Antonio, el Ejercicio1A y el Ejercicio1B.
+
+ ----------
+|19/02/2024|
+ ----------
+-Estamos con el pdf del Capitulo 7 viendo arrays y cadenas.
+-Los Ficheros JAR.
+-Punto 7.5 Algoritmos de ordenacion.
+-Creamos el paquete de Ordenamientos.
+-Creamos la clase EjBurbuja que es el metodo BubbleSort.
+-Con el metodo de la burbuja se ordenan los valores que muestras o le pides a la consola.
+-Tambien lo hicimos con la clase cocktailsSort.
+-Clase ordenamiento EjInsertion.
+-Por ultimo hacemos la calse EjMerge.
+-Vimos todos los metodos para ordenar.
+
+ ----------
+|20/02/2024|
+ ----------
+-Puedes usar estos metodos para ordenar cadenas o por edades cuando creas algunas clase tambien.
+-Hacemos el ejemplo de Selection y despues el quicksort.
+-Ejercicio de Examen para hacer.
+
+ ----------
+|21/02/2024|
+ ----------
+-Finalizado el Ejercicio2A donde probamos el metodo burbuja para ordenar numeros positivos y negativos.
+-Creamos la clase MetodosOrdenadmientos donde meteremos todos los metodos para ordenar.
+-Hacemos ahora el Ejercicio2B.
+-Colecciones y diccionarios.
+-Creamos la carpeta DinamicosArrayList donde creamos el Ejemplo1.
+
+ ----------
+|26/02/2024|
+ ----------
+-Viendo el implements Comparable en la clase Gato.
+-Metodo compareTo.
+-Collections libreria, donde salen las implementeaciones de listas, mapas y sets.
+-Hacemos el ejercicio2 de ArrayList, le llamaré practica2.
+
+ ----------
+|28/02/2024|
+ ----------
+-Volvemos con las clase disco donde añadimos y modificamos los discos que creamos y ya tenemos creado.
+-Nos manda hacer el case 6 para cambiar el codigo de la clase.
+-Tarea para entregar de la clase CollecionList para el codigo.
+
+ ----------
+|29/02/2024|
+ ----------
+-Corrigiendo la clase de ColeccionList donde metemos el case 5:
+-Hacemos dos nuevos metodos para la clase anterior.
+-Guardar la informacion en un fichero.
+-Metodo creado al final de la clase, siempre usaremos el try catch
+
+ ----------
+|04/03/2024|
+ ----------
+-Creamos la clase moneda y la clase testMoneda.
+-Creamos el paquete baraja donde hacemos el Ejercicio8 y la clase Carta.
+
+ ----------
+|05/03/2024|
+ ----------
+-En la clase Carta y Ejercicio8 hacemos el metodo HasMap, para ordenar las Cartas que nos sale.
+-Creamos el paquete Mapas para hacer ejemplos.
+-Cremos varios ejemplos de un mapa viendo su key y como mostrarlos.
+
+ ----------
+|06/03/2024|
+ ----------
+-Seguimos con los ejemplos de repaso de mapas.
+-Por ultimo daremos los SETS de cara al examen que será lo último que vamos a dar.
+-Creamos la clase Ejercicio6 en el paquete de mapas.
+-Volvimos a la clase de carta para que se ordenen, lo hicimos en el paquete de Mapas.
+
+ ----------
+|07/03/2024|
+ ----------
+-Hicimos el ejercicio12 en el paquete de baraja.
+-Ahora nos mandó hacer el ejercicio10 y lo metemos en el nuevo paquete llamado diccionario.
+
+ ----------
+|08/03/2024|
+ ----------
+-Seguimos con la clase Ejercicio10.
+-Empezamos ahora con la clase Gestesimal y la clase Articulo en el paquete nuevo que le llamamos gestesimal.
+
+ ----------
+|11/03/2024|
+ ----------
+-Seguimos con la clase de Articulo y Ejercicio13 del paquete de gestesimal.
+
+ ----------
+|12/03/2024|
+ ----------
+-Revisar el paquete de gestesimal.
+-Repaso general de cada uno de los paquetes.
+
+ ----------
+|13/03/2024|
+ ----------
+-Repaso del paquete test2_8.
+-Mirar el paquete de ejerciciosRayas.
+
+ ----------
+|14/03/2024|
+ ----------
+-Creamos el paquete de repaso del examen para practicar.
+-na5xuft.
+-Varios ejercicios de repaso de ArrayList.
+

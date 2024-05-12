@@ -1,0 +1,52 @@
+body {
+    background-color: steelblue;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.linkGeneral{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .linkPequeño{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: white;
+    text-decoration: none;
+  } 
+
+.imagenLogo{
+    max-width: 100px;
+}
+
+.enunciado {
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+.subTema{
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+ .container {
+ text-align: center;
+} 
+
+.imgLenguaje {
+  /* max-width: 100px; */
+  align-items: center;
+  display: block;
+  
+}
+
+.linkPequeño-derecha {
+  text-align: right;
+}

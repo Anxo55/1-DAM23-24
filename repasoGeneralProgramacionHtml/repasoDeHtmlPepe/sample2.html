@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sample 2</title>
+    <script language="javascript" type="text/javascript">
+    function campo() {
+        var f = document.forms.primero.elements[0].name;
+        alert('el nombre del primer campo del primer formulario es ' + f);
+    }
+
+    function texto() {
+        var g = document.forms.segundo.elements[1].value;
+        alert('el texto del segundo campo del segundo formulario es ' + g);
+    }
+
+    function cambia() {
+        document.forms[2].elements[0].value = 'cambiamos el texto';
+    }
+    </script>
+</head>
+
+<body onload="document.reset()">
+    <form name="primero">
+        <input type="text" name="texto1" value="formulario 1" size="30">
+    </form>
+    <form name="segundo">
+        <input type="radio" name="radio2">
+        <input type="text" name="texto2" value="formulario 2" size="30">
+    </form>
+    <form name="tercero">
+        <input type="text" name="texto3" value="formulario 3" size="30"><br><br>
+        <input type="button" value="nombre campo" onclick="campo()">
+        <input type="button" value="texto campo" onclick="texto()">
+        <input type="button" value="cambia texto" onclick="cambia()">
+    </form>
+</body>
+
+</html>

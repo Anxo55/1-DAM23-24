@@ -1,0 +1,2 @@
+-Practica haciendo un ejercicio donde nos daba el factorila del numero que pedimos por pantalla. Ejercicio para repasar
+ y intentar de nuevo con algunos cambios por el medio.

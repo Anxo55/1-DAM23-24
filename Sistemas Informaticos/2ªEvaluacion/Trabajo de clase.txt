@@ -1,0 +1,276 @@
+ ----------
+|08/01/2024|
+ ----------
+-Que es el hacking.
+-Administracion del sistema.
+-Que es la cmd y cuandp nació.
+-WIMP.
+
+ ----------
+|10/01/2024|
+ ----------
+-Comando tree.
+-Cd para acceder a algun directorio especifico.
+-Lo que ocupa el paint y el bloc de notas en el administrador de tareas.
+-Md y mkdir.
+-Control + f en el cmd y te abre una pestaña.
+
+ ----------
+|11/01/2024|
+ ----------
+-Comando tasklist.
+-PID.
+-cls para borrar todo como un clear en la powersheall.
+-taskkill
+-query /?.
+-taskkill /F /pid y a continuacion pondriamos el codigo de dicho archivo q vimos usando el comando tasklist.
+-tasklist |sort. con este comando te lo muestra ordenado por orden alfabético.
+-tasklist /?.
+-cd /?.
+-md carpeta2.
+-mkdir carpeta 3.
+
+ ----------
+|12/01/2024|
+ ----------
+-Comando systeminfo.
+-chkdsk.
+-schtasks.
+ ----------
+|15/01/2024|
+ ----------
+-erase /?.
+-erase carpeta1 (salta un mensaje de s/n).
+-erase /s carpeta1.
+-Copiar informacion de una carpeta y pasarla para otra.
+
+ ----------
+|18/01/2024|
+ ----------
+-ping google.com.
+-ping localhost & hostname.
+-ping test & hostname.
+-ping test && hostname.
+-ping test | test2.
+-ipconfig > ip.txt.
+-ipconfig & hostname > ip.txt.
+-ping localhost >> ip.txt.
+-Trabajo para entregar mañana dia 19.
+
+ --------
+|19/01/2024|
+ ----------
+-Terminar el trabajo de los comandos de clase.
+-Falta subir el archivo txt y ya enviar el trabajo antes de que acabe el dia.
+
+ ----------
+|22/01/2024|
+ ----------
+-Abrir el administrador de equipos y arrancar el paint.
+-Dandole a crear la tarea basica creamos lo que va a ejecutar el programa cuando se reinicie.
+-Coger la ruta del archivo especifico.
+
+ ----------
+|24/01/2024|
+ ----------
+-Visor de Eventos
+-Trabajo de Visor de Eventos. 
+
+ ----------
+|25/01/2024|
+ ----------
+-Instalamos el virtual box.`
+
+ ----------
+|26/01/2024|
+ ----------
+-Suma de verificacion.
+-No copiar un comando de chatgpt y ponerlo en ninguna terminal.
+
+ ----------
+|29/01/2024|
+ ----------
+-Buscar reporte de lo que ocurre cuando apagas el Administrador de usuarios.
+-Documento de la unidad subida al classroom para ir repasando ya.
+
+ ----------
+|31/01/2024|
+ ----------
+-Instalar la ISO de windows 10 Pro.
+-Monitor de rendimiento y sus propiedades.
+-Trabajo de Monitor de rendimiento y recursos.
+
+ ----------
+|01/02/2024|
+ ----------
+-Trabajo del Monitor de rendimiento y recursos entregado.
+-Hecho desde otro ordenador por que en el mio no funcionaba, no aparecia sistema ni adaptador de red.
+
+ ----------
+|02/02/2024|
+ ----------
+-Viendo el documento de repaso de clase.
+-UAC.
+-Archivos y Directorios ocultos del sistema.
+-Como personalizar y aladir variables a windows 10.
+-Trabajo de Dave cutler.
+
+ ----------
+|05/02/2024|
+ ----------
+-Tema 5 sobre maquinas virtuales subido al classroom.
+-Ver como descargar la iso de windows 10 para utilziar en el virtual box.
+
+ ----------
+|07/02/2024|
+ ----------
+-Instalo la iso de windows en otro ordenador para usarlo en virtual box.
+-Clonarlo cuando este isntalado desde el inicio del virtual box.
+
+ ----------
+|15/02/2024|
+ ----------
+-Apaga la maquina virutal de windows de golpe apagando el ordenador.
+-Particion en disco.
+
+-1. En la virtual box crear particion de 2GB. Asignar letra.
+ Formato: ???? Nombre: Test
+
+ 1.2 Confirmar que aparece en el explorador de archivos.
+
+ 2. Comprobar que la paticion nueva no tiene "archivo de paginacion" en memoria virtual
+ Cambiar a administrada por el sistema.
+
+ TRAMPA!!!!
+
+ 2.1 Confirmar que el archivo de paginacion existe en esa unidad/particion.
+
+-Instalar guest Adittions.
+
+ 3. Crea un archivo de texto para confirmar que se puede escribir en esa particion. Ocultalo.
+ -Confirma que se puede ver (si realizaste el punto 2.1 deberías verlo)
+
+ 4. Elimina la particion creada y vuelve a "unirla" la principal (ie., dejalo como estaba antes de la tarea)
+
+ TRAMPA!!!!
+
+ 5. Crear 2 Snapshot/Instantánea
+ Confirmar que se pueden cargar
+ nota: Crea un I1.txt, I2.txt e I3.txt como se realizo en la explicación para conocer el punto temporal en que te encuentras.
+
+ ----------
+|16/02/2024|
+ ----------
+-Cree la Iso de windows 10 pro en el virtual box.
+-Tengo que instalar el guest Addition en la maquina virtual.
+-Revisar lo que está subido al classroom.
+
+ ----------
+|19/02/2024|
+ ----------
+-Descargamos wiztree para ver el espacio y lo que ocupa lo que contiene en el ordenador.
+-Viendo como clonar en la maquina virtual.
+-Abrir con bloc de notas en la VB.
+
+ ----------
+|21/02/2024|
+ ----------
+-Mirar lo de teclado en la maquina virtual.
+-https://www.howtogeek.com/1364/add-any-application-to-the-desktop-right-click-menu-in-vista/
+-El enlace anterior lo estamos utilizando para las maquinas virtuales.
+-HKEY_CLASSES_ROOT\Directory\Background\shell
+-La ruta de arriba se bsuca el el editor de registro.
+-Error por sobreescribir el registro.
+
+ ----------
+|23/02/2024|
+ ----------
+-Trabajo de la maquina virtual.
+-Hay que instalar el gparted desde el enlace proporcionado y meterlo en la configuracion de la iso de windows 10.
+
+ ----------
+|26/02/2024|
+ ----------
+-Continuamos con el trabajo de la maquina virtual.
+-Instalar ls iso de 64 bits para hacer le trabajo de la maquina virtual.
+-En la U4 del classroom en PERMISOS.
+
+ ----------
+|28/02/2024|
+ ----------
+-Trabajo de la maquina virtual con el gparted entregada con retraso.
+-Tarea para hacer en clase con nuevos usuarios que hay que crear.
+
+ ----------
+|29/02/2024|
+ ----------
+-Descargamos el notepad++.
+-Descargamos la carpeta logs subida por Nico en el classroom y la guardo en la carpeta de clase.
+
+ ----------
+|01/03/2024|
+ ----------
+-Subidos a la carpeta los temas de repaso.
+-El ultimo es el de redes.
+-Trabajo para el 5 de marzo sobre ping entre maquinas virtuales.
+
+ ----------
+|04/03/2024|
+ ----------
+-Crear cuenta en netacad y descargar Cisco Packet Tracer
+- https://www.netacad.com/es/courses/packet-tracer
+- Crear cuenta en Cisco NetAcad.com
+- Seleccione Recursos > Descargue Packet Tracer.
+- Comando  tracert google.com.
+- Comando arp -a.
+- Tarea de hacerle ping a nuestra ip config.
+
+ ----------
+|05/03/2024|
+ ----------
+-Modelo Osi y Modelo TCP/IP.
+-Capa Red/Internet.
+-Protocolo de configuración dinamica de host.
+-Usando el Cisco Packet Tracer.
+-Podemos tener mas de dos ordenadores cruzados(PREGUNTA DE EXAMEN).
+
+ ----------
+|06/03/2024|
+ ----------
+-Practica en Cisco Packet Tracer con ordenadpres y switches.
+-Guardarlo en la carpeta de clase.
+
+ ----------
+|07/03/2024|
+ ----------
+-Descargar wireshark.
+-El protocolo IP.
+-En la cmd hacer ping a la 191.168.1.255.
+-Ping 10.101.16.255.
+-Pregunta de examen, que es el loopback.
+-O poner ip y decir cual es de loopback.
+
+ ----------
+|08/03/2024|
+ ----------
+-ECOMT.
+-Azure.
+-Comando whois.
+-Topologias de red.
+-Diagrama capa OSI, en el examen.
+-Nivel capa OSI.
+-Mascara de red, mirar que entra en el examen.
+
+ ----------
+|11/03/2024|
+ ----------
+-META
+-Fediverso.
+
+ ----------
+|13/03/2024|
+ ----------
+-Practica de subnetting.
+-Las clases mas importantes son de la A-C.
+-Le quitas 1 bit al host y se lo pasas a la máscara de red
+

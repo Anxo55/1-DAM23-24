@@ -1,0 +1,2 @@
+-La etiqueta <pre> sirve para alinear tablas, como la de la liga, la premier, etc.
+-La etiqueta z-index en css probarla, donde por posicion colocas imagenes delante de las otras.

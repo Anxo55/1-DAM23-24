@@ -1,0 +1,664 @@
+00:00:06.826994 VirtualBox VM 7.0.14 r161095 win.amd64 (Jan 15 2024 14:59:30) release log
+00:00:06.827000 Log opened 2024-02-28T12:26:41.261415900Z
+00:00:06.827000 Build Type: release
+00:00:06.827005 OS Product: Windows 10
+00:00:06.827006 OS Release: 10.0.19045
+00:00:06.827007 OS Service Pack: 
+00:00:06.952042 DMI Product Name: HP Compaq 8100 Elite SFF PC
+00:00:06.962787 DMI Product Version:  
+00:00:06.962811 Firmware type: BIOS
+00:00:06.962822 Host RAM: 7991MB (7.8GB) total, 2166MB (2.1GB) available
+00:00:06.962826 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe
+00:00:06.962826 Process ID: 6460
+00:00:06.962827 Package type: WINDOWS_64BITS_GENERIC
+00:00:06.964996 Installed Extension Packs:
+00:00:06.965289   None installed!
+00:00:06.966515 Console: Machine state changed to 'Starting'
+00:00:06.966790 Qt version: 5.15.2
+00:00:06.979106 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:07.168534 SUP: seg #0: R   0x00000000 LB 0x00001000
+00:00:07.168565 SUP: seg #1: R X 0x00001000 LB 0x00179000
+00:00:07.168572 SUP: seg #2: R   0x0017a000 LB 0x00051000
+00:00:07.168577 SUP: seg #3: RW  0x001cb000 LB 0x00013000
+00:00:07.168583 SUP: seg #4: R   0x001de000 LB 0x00011000
+00:00:07.168589 SUP: seg #5: RW  0x001ef000 LB 0x00004000
+00:00:07.168594 SUP: seg #6: R   0x001f3000 LB 0x00010000
+00:00:07.168600 SUP: seg #7: R X 0x00203000 LB 0x00002000
+00:00:07.168605 SUP: seg #8: R   0x00205000 LB 0x00007000
+00:00:07.172206 SUP: Loaded VMMR0.r0 (C:\Program Files\Oracle\VirtualBox/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:07.172267 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:07.172273 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox/VMMR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:07.176323 Guest OS type: 'Windows10_64'
+00:00:07.177352 fHMForced=true - No raw-mode support in this build!
+00:00:07.183887 File system of 'C:\Users\Primero DAM\VirtualBox VMs\Windows\Windows.vdi' is ntfs
+00:00:07.185308 File system of 'C:\Users\Primero DAM\Documents\iso\Windows.iso' (DVD) is ntfs
+00:00:07.194886 Audio: Detected default audio driver type is 'HostAudioWas'
+00:00:07.239820 Shared Clipboard: Service loaded
+00:00:07.239851 Shared Clipboard: Mode: Off
+00:00:07.239981 Shared Clipboard: Service running in normal mode
+00:00:07.274137 Drag and drop service loaded
+00:00:07.274160 Drag and drop mode: Off
+00:00:07.277599 ************************* CFGM dump *************************
+00:00:07.277606 [/] (level 0)
+00:00:07.277610   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:07.277612   EnablePAE         <integer> = 0x0000000000000001 (1)
+00:00:07.277614   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:07.277615   MemBalloonSize    <integer> = 0x0000000000000000 (0, 0 B)
+00:00:07.277618   Name              <string>  = "Windows" (cb=8)
+00:00:07.277619   NumCPUs           <integer> = 0x0000000000000002 (2)
+00:00:07.277620   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:07.277621   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512.0 MiB)
+00:00:07.277623   RamSize           <integer> = 0x0000000100000000 (4 294 967 296, 4.0 GiB)
+00:00:07.277625   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:07.277626   UUID              <bytes>   = "82 14 99 89 0b 2b d2 4d b1 fd 47 08 8b df f3 43" (cb=16)
+00:00:07.277634 
+00:00:07.277635 [/CPUM/] (level 1)
+00:00:07.277637   Enable64bit        <integer> = 0x0000000000000001 (1)
+00:00:07.277638   GuestCpuName       <string>  = "host" (cb=5)
+00:00:07.277639   NestedHWVirt       <integer> = 0x0000000000000000 (0)
+00:00:07.277641   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:07.277642   SpecCtrl           <integer> = 0x0000000000000000 (0)
+00:00:07.277643 
+00:00:07.277643 [/CPUM/IsaExts/] (level 2)
+00:00:07.277645 
+00:00:07.277646 [/DBGC/] (level 1)
+00:00:07.277647   GlobalInitScript <string>  = "C:\Users\Primero DAM\.VirtualBox/dbgc-init" (cb=43)
+00:00:07.277649   HistoryFile      <string>  = "C:\Users\Primero DAM\.VirtualBox/dbgc-history" (cb=46)
+00:00:07.277650   LocalInitScript  <string>  = "C:\Users\Primero DAM\VirtualBox VMs\Windows/dbgc-init" (cb=54)
+00:00:07.277651 
+00:00:07.277652 [/DBGF/] (level 1)
+00:00:07.277653   Path <string>  = "C:\Users\Primero DAM\VirtualBox VMs\Windows/debug/;C:\Users\Primero DAM\VirtualBox VMs\Windows/;cache*C:\Users\Primero DAM\VirtualBox VMs\Windows/dbgcache/;C:\Users\Primero DAM\" (cb=178)
+00:00:07.277654 
+00:00:07.277655 [/Devices/] (level 1)
+00:00:07.277656 
+00:00:07.277657 [/Devices/3c501/] (level 2)
+00:00:07.277658 
+00:00:07.277658 [/Devices/8237A/] (level 2)
+00:00:07.277660 
+00:00:07.277660 [/Devices/8237A/0/] (level 3)
+00:00:07.277662   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.277663 
+00:00:07.277664 [/Devices/GIMDev/] (level 2)
+00:00:07.277665 
+00:00:07.277665 [/Devices/GIMDev/0/] (level 3)
+00:00:07.277667   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.277668 
+00:00:07.277669 [/Devices/VMMDev/] (level 2)
+00:00:07.277670 
+00:00:07.277670 [/Devices/VMMDev/0/] (level 3)
+00:00:07.277672   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:07.277674   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:07.277675   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:07.277676   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:07.277677 
+00:00:07.277677 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:07.277680   GuestCoreDumpDir <string>  = "C:\Users\Primero DAM\VirtualBox VMs\Windows\Snapshots" (cb=54)
+00:00:07.277681 
+00:00:07.277681 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:07.277684   Driver <string>  = "HGCM" (cb=5)
+00:00:07.277685 
+00:00:07.277685 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:07.277687 
+00:00:07.277688 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:07.277690   Driver <string>  = "MainStatus" (cb=11)
+00:00:07.277691 
+00:00:07.277691 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:07.277694   First                <integer> = 0x0000000000000000 (0)
+00:00:07.277695   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:07.277696   Last                 <integer> = 0x0000000000000000 (0)
+00:00:07.277697   iLedSet              <integer> = 0x0000000000000004 (4)
+00:00:07.277698 
+00:00:07.277699 [/Devices/acpi/] (level 2)
+00:00:07.277700 
+00:00:07.277701 [/Devices/acpi/0/] (level 3)
+00:00:07.277703   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:07.277704   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:07.277705   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:07.277706   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:07.277707 
+00:00:07.277708 [/Devices/acpi/0/Config/] (level 4)
+00:00:07.277711   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:07.277712   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:07.277713   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:07.277714   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:07.277715   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:07.277722   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:07.277724   NumCPUs             <integer> = 0x0000000000000002 (2)
+00:00:07.277725   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:07.277726   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:07.277727   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:07.277728   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:07.277729   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:07.277730   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:07.277731   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:07.277732   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:07.277733   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:07.277735   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:07.277736   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:07.277737 
+00:00:07.277737 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:07.277739   Driver <string>  = "ACPIHost" (cb=9)
+00:00:07.277740 
+00:00:07.277741 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:07.277743 
+00:00:07.277743 [/Devices/acpi/0/LUN#1/] (level 4)
+00:00:07.277745   Driver <string>  = "ACPICpu" (cb=8)
+00:00:07.277746 
+00:00:07.277746 [/Devices/acpi/0/LUN#1/Config/] (level 5)
+00:00:07.277748 
+00:00:07.277748 [/Devices/ahci/] (level 2)
+00:00:07.277750 
+00:00:07.277750 [/Devices/ahci/0/] (level 3)
+00:00:07.277755   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:07.277756   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:07.277758   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:07.277758   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:07.277760 
+00:00:07.277760 [/Devices/ahci/0/Config/] (level 4)
+00:00:07.277762   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:07.277763   PortCount <integer> = 0x0000000000000002 (2)
+00:00:07.277764 
+00:00:07.277764 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:07.277767   Hotpluggable <integer> = 0x0000000000000000 (0)
+00:00:07.277768 
+00:00:07.277768 [/Devices/ahci/0/Config/Port1/] (level 5)
+00:00:07.277770   Hotpluggable <integer> = 0x0000000000000000 (0)
+00:00:07.277771 
+00:00:07.277772 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:07.277774   Driver <string>  = "VD" (cb=3)
+00:00:07.277775 
+00:00:07.277776 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:07.277778   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:07.277779   Format     <string>  = "VDI" (cb=4)
+00:00:07.277781   Mountable  <integer> = 0x0000000000000000 (0)
+00:00:07.277782   Path       <string>  = "C:\Users\Primero DAM\VirtualBox VMs\Windows\Windows.vdi" (cb=56)
+00:00:07.277783   Type       <string>  = "HardDisk" (cb=9)
+00:00:07.277784   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:07.277786 
+00:00:07.277786 [/Devices/ahci/0/LUN#0/Config/VDConfig/] (level 6)
+00:00:07.277789   AllocationBlockSize <string>  = "1048576" (cb=8)
+00:00:07.277790 
+00:00:07.277790 [/Devices/ahci/0/LUN#1/] (level 4)
+00:00:07.277793   Driver <string>  = "SCSI" (cb=5)
+00:00:07.277794 
+00:00:07.277794 [/Devices/ahci/0/LUN#1/AttachedDriver/] (level 5)
+00:00:07.277797   Driver <string>  = "VD" (cb=3)
+00:00:07.277798 
+00:00:07.277798 [/Devices/ahci/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:07.277801   Format    <string>  = "RAW" (cb=4)
+00:00:07.277802   Mountable <integer> = 0x0000000000000001 (1)
+00:00:07.277803   Path      <string>  = "C:\Users\Primero DAM\Documents\iso\Windows.iso" (cb=47)
+00:00:07.277805   ReadOnly  <integer> = 0x0000000000000001 (1)
+00:00:07.277806   Type      <string>  = "DVD" (cb=4)
+00:00:07.277807   UseNewIo  <integer> = 0x0000000000000001 (1)
+00:00:07.277808 
+00:00:07.277809 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:07.277811   Driver <string>  = "MainStatus" (cb=11)
+00:00:07.277812 
+00:00:07.277812 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:07.277815   DeviceInstance       <string>  = "ahci/0" (cb=7)
+00:00:07.277816   First                <integer> = 0x0000000000000000 (0)
+00:00:07.277817   HasMediumAttachments <integer> = 0x0000000000000001 (1)
+00:00:07.277818   Last                 <integer> = 0x0000000000000001 (1)
+00:00:07.277820   iLedSet              <integer> = 0x0000000000000002 (2)
+00:00:07.277821 
+00:00:07.277821 [/Devices/apic/] (level 2)
+00:00:07.277823 
+00:00:07.277823 [/Devices/apic/0/] (level 3)
+00:00:07.277825   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.277828 
+00:00:07.277829 [/Devices/apic/0/Config/] (level 4)
+00:00:07.277831   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:07.277833   Mode    <integer> = 0x0000000000000002 (2)
+00:00:07.277834   NumCPUs <integer> = 0x0000000000000002 (2)
+00:00:07.277835 
+00:00:07.277835 [/Devices/dp8390/] (level 2)
+00:00:07.277837 
+00:00:07.277838 [/Devices/e1000/] (level 2)
+00:00:07.277839 
+00:00:07.277839 [/Devices/e1000/0/] (level 3)
+00:00:07.277841   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:07.277842   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:07.277842   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:07.277843   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:07.277844 
+00:00:07.277844 [/Devices/e1000/0/Config/] (level 4)
+00:00:07.277846   AdapterType    <integer> = 0x0000000000000000 (0)
+00:00:07.277847   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:07.277847   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:07.277848   MAC            <bytes>   = "08 00 27 17 f2 ea" (cb=6)
+00:00:07.277851 
+00:00:07.277851 [/Devices/e1000/0/LUN#0/] (level 4)
+00:00:07.277852   Driver <string>  = "NAT" (cb=4)
+00:00:07.277853 
+00:00:07.277853 [/Devices/e1000/0/LUN#0/Config/] (level 5)
+00:00:07.277855   AliasMode          <integer> = 0x0000000000000000 (0)
+00:00:07.277856   BootFile           <string>  = "Windows.pxe" (cb=12)
+00:00:07.277857   DNSProxy           <integer> = 0x0000000000000000 (0)
+00:00:07.277858   LocalhostReachable <integer> = 0x0000000000000000 (0)
+00:00:07.277859   Network            <string>  = "10.0.2.0/24" (cb=12)
+00:00:07.277860   PassDomain         <integer> = 0x0000000000000001 (1)
+00:00:07.277861   TFTPPrefix         <string>  = "C:\Users\Primero DAM\.VirtualBox\TFTP" (cb=38)
+00:00:07.277862   UseHostResolver    <integer> = 0x0000000000000000 (0)
+00:00:07.277862 
+00:00:07.277863 [/Devices/e1000/0/LUN#999/] (level 4)
+00:00:07.277864   Driver <string>  = "MainStatus" (cb=11)
+00:00:07.277865 
+00:00:07.277865 [/Devices/e1000/0/LUN#999/Config/] (level 5)
+00:00:07.277867   First                <integer> = 0x0000000000000000 (0)
+00:00:07.277868   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:07.277869   Last                 <integer> = 0x0000000000000000 (0)
+00:00:07.277870   iLedSet              <integer> = 0x0000000000000003 (3)
+00:00:07.277871 
+00:00:07.277871 [/Devices/hda/] (level 2)
+00:00:07.277872 
+00:00:07.277873 [/Devices/hda/0/] (level 3)
+00:00:07.277874   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:07.277875   PCIDeviceNo   <integer> = 0x0000000000000005 (5)
+00:00:07.277876   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:07.277877   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:07.277878 
+00:00:07.277878 [/Devices/hda/0/AudioConfig/] (level 4)
+00:00:07.277879 
+00:00:07.277880 [/Devices/hda/0/Config/] (level 4)
+00:00:07.277881   DebugEnabled <integer> = 0x0000000000000000 (0)
+00:00:07.277882 
+00:00:07.277882 [/Devices/hda/0/LUN#0/] (level 4)
+00:00:07.277884   Driver <string>  = "AUDIO" (cb=6)
+00:00:07.277885 
+00:00:07.277885 [/Devices/hda/0/LUN#0/AttachedDriver/] (level 5)
+00:00:07.277887   Driver <string>  = "HostAudioWas" (cb=13)
+00:00:07.277889 
+00:00:07.277889 [/Devices/hda/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:07.277892   VmName <string>  = "Windows" (cb=8)
+00:00:07.277893   VmUuid <string>  = "89991482-2b0b-4dd2-b1fd-47088bdff343" (cb=37)
+00:00:07.277894 
+00:00:07.277895 [/Devices/hda/0/LUN#0/Config/] (level 5)
+00:00:07.277897   DriverName    <string>  = "HostAudioWas" (cb=13)
+00:00:07.277898   InputEnabled  <integer> = 0x0000000000000000 (0)
+00:00:07.277900   OutputEnabled <integer> = 0x0000000000000001 (1)
+00:00:07.277901 
+00:00:07.277902 [/Devices/hda/0/LUN#1/] (level 4)
+00:00:07.277904   Driver <string>  = "AUDIO" (cb=6)
+00:00:07.277907 
+00:00:07.277907 [/Devices/hda/0/LUN#2/] (level 4)
+00:00:07.277909   Driver <string>  = "AUDIO" (cb=6)
+00:00:07.277910 
+00:00:07.277910 [/Devices/i8254/] (level 2)
+00:00:07.277912 
+00:00:07.277912 [/Devices/i8254/0/] (level 3)
+00:00:07.277916 
+00:00:07.277916 [/Devices/i8254/0/Config/] (level 4)
+00:00:07.277918 
+00:00:07.277919 [/Devices/i8259/] (level 2)
+00:00:07.277920 
+00:00:07.277921 [/Devices/i8259/0/] (level 3)
+00:00:07.277922   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.277924 
+00:00:07.277924 [/Devices/i8259/0/Config/] (level 4)
+00:00:07.277925 
+00:00:07.277926 [/Devices/ioapic/] (level 2)
+00:00:07.277927 
+00:00:07.277927 [/Devices/ioapic/0/] (level 3)
+00:00:07.277928   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.277929 
+00:00:07.277929 [/Devices/ioapic/0/Config/] (level 4)
+00:00:07.277931   NumCPUs <integer> = 0x0000000000000002 (2)
+00:00:07.277932 
+00:00:07.277932 [/Devices/mc146818/] (level 2)
+00:00:07.277933 
+00:00:07.277933 [/Devices/mc146818/0/] (level 3)
+00:00:07.277934 
+00:00:07.277935 [/Devices/mc146818/0/Config/] (level 4)
+00:00:07.277936   UseUTC <integer> = 0x0000000000000000 (0)
+00:00:07.277937 
+00:00:07.277937 [/Devices/parallel/] (level 2)
+00:00:07.277938 
+00:00:07.277938 [/Devices/pcarch/] (level 2)
+00:00:07.277940 
+00:00:07.277940 [/Devices/pcarch/0/] (level 3)
+00:00:07.277941   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.277942 
+00:00:07.277942 [/Devices/pcarch/0/Config/] (level 4)
+00:00:07.277943 
+00:00:07.277944 [/Devices/pcbios/] (level 2)
+00:00:07.277945 
+00:00:07.277945 [/Devices/pcbios/0/] (level 3)
+00:00:07.277947   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.277947 
+00:00:07.277948 [/Devices/pcbios/0/Config/] (level 4)
+00:00:07.277950   APIC               <integer> = 0x0000000000000001 (1)
+00:00:07.277952   BootDevice0        <string>  = "FLOPPY" (cb=7)
+00:00:07.277954   BootDevice1        <string>  = "DVD" (cb=4)
+00:00:07.277955   BootDevice2        <string>  = "IDE" (cb=4)
+00:00:07.277956   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:07.277957   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:07.277959   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:07.277960   IOAPIC             <integer> = 0x0000000000000001 (1)
+00:00:07.277961   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:07.277963   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:07.277964   NumCPUs            <integer> = 0x0000000000000002 (2)
+00:00:07.277997   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:07.277999   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:07.278000   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:07.278002   UUID               <bytes>   = "82 14 99 89 0b 2b d2 4d b1 fd 47 08 8b df f3 43" (cb=16)
+00:00:07.278006   UuidLe             <integer> = 0x0000000000000001 (1)
+00:00:07.278009 
+00:00:07.278010 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:07.278014 
+00:00:07.278014 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:07.278017   NIC           <integer> = 0x0000000000000000 (0)
+00:00:07.278018   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:07.278020   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:07.278021   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:07.278022 
+00:00:07.278023 [/Devices/pci/] (level 2)
+00:00:07.278024 
+00:00:07.278025 [/Devices/pci/0/] (level 3)
+00:00:07.278027   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.278028 
+00:00:07.278028 [/Devices/pci/0/Config/] (level 4)
+00:00:07.278043   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:07.278044 
+00:00:07.278045 [/Devices/pcibridge/] (level 2)
+00:00:07.278046 
+00:00:07.278047 [/Devices/pckbd/] (level 2)
+00:00:07.278048 
+00:00:07.278048 [/Devices/pckbd/0/] (level 3)
+00:00:07.278050   Trusted <integer> = 0x0000000000000001 (1)
+00:00:07.278051 
+00:00:07.278052 [/Devices/pckbd/0/Config/] (level 4)
+00:00:07.278054 
+00:00:07.278054 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:07.278056   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:07.278057 
+00:00:07.278058 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:07.278060   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:07.278061 
+00:00:07.278061 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:07.278064   QueueSize <integer> = 0x0000000000000040 (64, 64 B)
+00:00:07.278066 
+00:00:07.278067 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:07.278069   Driver <string>  = "MouseQueue" (cb=11)
+00:00:07.278070 
+00:00:07.278070 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:07.278095   Driver <string>  = "MainMouse" (cb=10)
+00:00:07.278097 
+00:00:07.278097 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:07.278100   QueueSize <integer> = 0x0000000000000080 (128, 128 B)
+00:00:07.278102 
+00:00:07.278102 [/Devices/pcnet/] (level 2)
+00:00:07.278104 
+00:00:07.278104 [/Devices/serial/] (level 2)
+00:00:07.278106 
+00:00:07.278107 [/Devices/usb-xhci/] (level 2)
+00:00:07.278108 
+00:00:07.278129 [/Devices/usb-xhci/0/] (level 3)
+00:00:07.278182   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:07.278184   PCIDeviceNo   <integer> = 0x000000000000000c (12)
+00:00:07.278259   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:07.278261   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:07.278263 
+00:00:07.278263 [/Devices/usb-xhci/0/Config/] (level 4)
+00:00:07.278265 
+00:00:07.278266 [/Devices/usb-xhci/0/LUN#0/] (level 4)
+00:00:07.278268   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:07.278269 
+00:00:07.278269 [/Devices/usb-xhci/0/LUN#0/Config/] (level 5)
+00:00:07.278272 
+00:00:07.278272 [/Devices/usb-xhci/0/LUN#1/] (level 4)
+00:00:07.278274   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:07.278299 
+00:00:07.278300 [/Devices/usb-xhci/0/LUN#1/Config/] (level 5)
+00:00:07.278303 
+00:00:07.278303 [/Devices/usb-xhci/0/LUN#999/] (level 4)
+00:00:07.278305   Driver <string>  = "MainStatus" (cb=11)
+00:00:07.278307 
+00:00:07.278307 [/Devices/usb-xhci/0/LUN#999/Config/] (level 5)
+00:00:07.278309   First                <integer> = 0x0000000000000000 (0)
+00:00:07.278312   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:07.278315   Last                 <integer> = 0x0000000000000001 (1)
+00:00:07.278318   iLedSet              <integer> = 0x0000000000000001 (1)
+00:00:07.278319 
+00:00:07.278320 [/Devices/vga/] (level 2)
+00:00:07.278322 
+00:00:07.278322 [/Devices/vga/0/] (level 3)
+00:00:07.278324   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:07.278336   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:07.278338   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:07.278339   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:07.278341 
+00:00:07.278341 [/Devices/vga/0/Config/] (level 4)
+00:00:07.278344   3DEnabled        <integer> = 0x0000000000000000 (0)
+00:00:07.278345   CustomVideoModes <integer> = 0x0000000000000000 (0)
+00:00:07.278346   FadeIn           <integer> = 0x0000000000000001 (1)
+00:00:07.278347   FadeOut          <integer> = 0x0000000000000001 (1)
+00:00:07.278349   HeightReduction  <integer> = 0x0000000000000000 (0)
+00:00:07.278350   LogoFile         <string>  = "" (cb=1)
+00:00:07.278351   LogoTime         <integer> = 0x0000000000000000 (0)
+00:00:07.278352   MonitorCount     <integer> = 0x0000000000000001 (1)
+00:00:07.278353   ShowBootMenu     <integer> = 0x0000000000000002 (2)
+00:00:07.278354   VMSVGA3dEnabled  <integer> = 0x0000000000000000 (0)
+00:00:07.278355   VMSVGAEnabled    <integer> = 0x0000000000000001 (1)
+00:00:07.278356   VRamSize         <integer> = 0x0000000008000000 (134 217 728, 128.0 MiB)
+00:00:07.278359 
+00:00:07.278359 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:07.278361   Driver <string>  = "MainDisplay" (cb=12)
+00:00:07.278362 
+00:00:07.278363 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:07.278365 
+00:00:07.278365 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:07.278383   Driver <string>  = "MainStatus" (cb=11)
+00:00:07.278385 
+00:00:07.278385 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:07.278388   First                <integer> = 0x0000000000000000 (0)
+00:00:07.278390   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:07.278391   Last                 <integer> = 0x0000000000000000 (0)
+00:00:07.278392   iLedSet              <integer> = 0x0000000000000000 (0)
+00:00:07.278393 
+00:00:07.278394 [/Devices/virtio-net/] (level 2)
+00:00:07.278395 
+00:00:07.278396 [/EM/] (level 1)
+00:00:07.278397   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:07.278398 
+00:00:07.278398 [/GCM/] (level 1)
+00:00:07.278400   FixerSet <integer> = 0x0000000000000000 (0)
+00:00:07.278401 
+00:00:07.278401 [/GIM/] (level 1)
+00:00:07.278403   Provider <string>  = "HyperV" (cb=7)
+00:00:07.278404 
+00:00:07.278404 [/HM/] (level 1)
+00:00:07.278407   64bitEnabled        <integer> = 0x0000000000000001 (1)
+00:00:07.278409   EnableLargePages    <integer> = 0x0000000000000001 (1)
+00:00:07.278410   EnableNestedPaging  <integer> = 0x0000000000000001 (1)
+00:00:07.278411   EnableUX            <integer> = 0x0000000000000001 (1)
+00:00:07.278412   EnableVPID          <integer> = 0x0000000000000001 (1)
+00:00:07.278414   Exclusive           <integer> = 0x0000000000000000 (0)
+00:00:07.278415   HMForced            <integer> = 0x0000000000000001 (1)
+00:00:07.278416   IBPBOnVMEntry       <integer> = 0x0000000000000000 (0)
+00:00:07.278417   IBPBOnVMExit        <integer> = 0x0000000000000000 (0)
+00:00:07.278418   L1DFlushOnSched     <integer> = 0x0000000000000001 (1)
+00:00:07.278420   L1DFlushOnVMEntry   <integer> = 0x0000000000000000 (0)
+00:00:07.278421   MDSClearOnSched     <integer> = 0x0000000000000001 (1)
+00:00:07.278422   MDSClearOnVMEntry   <integer> = 0x0000000000000000 (0)
+00:00:07.278423   SpecCtrlByHost      <integer> = 0x0000000000000000 (0)
+00:00:07.278424   SvmVirtVmsaveVmload <integer> = 0x0000000000000000 (0)
+00:00:07.278425   UseNEMInstead       <integer> = 0x0000000000000000 (0)
+00:00:07.278426 
+00:00:07.278427 [/MM/] (level 1)
+00:00:07.278428   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:07.278429 
+00:00:07.278430 [/NEM/] (level 1)
+00:00:07.278431   Allow64BitGuests <integer> = 0x0000000000000001 (1)
+00:00:07.278432 
+00:00:07.278433 [/PDM/] (level 1)
+00:00:07.278434 
+00:00:07.278435 [/PDM/AsyncCompletion/] (level 2)
+00:00:07.278437 
+00:00:07.278437 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:07.278439 
+00:00:07.278440 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:07.278442 
+00:00:07.278443 [/PDM/BlkCache/] (level 2)
+00:00:07.278445   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5.0 MiB)
+00:00:07.278447 
+00:00:07.278447 [/PDM/Devices/] (level 2)
+00:00:07.278449 
+00:00:07.278449 [/PDM/Drivers/] (level 2)
+00:00:07.278451 
+00:00:07.278451 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:07.278453   Path <string>  = "VBoxC" (cb=6)
+00:00:07.278454 
+00:00:07.278454 [/PDM/NetworkShaper/] (level 2)
+00:00:07.278456 
+00:00:07.278456 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:07.278458 
+00:00:07.278459 [/TM/] (level 1)
+00:00:07.278460   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:07.278461 
+00:00:07.278462 [/USB/] (level 1)
+00:00:07.278463 
+00:00:07.278464 [/USB/HidMouse/] (level 2)
+00:00:07.278465 
+00:00:07.278466 [/USB/HidMouse/0/] (level 3)
+00:00:07.278467 
+00:00:07.278468 [/USB/HidMouse/0/Config/] (level 4)
+00:00:07.278470   Mode <string>  = "absolute" (cb=9)
+00:00:07.278471 
+00:00:07.278471 [/USB/HidMouse/0/LUN#0/] (level 4)
+00:00:07.278475   Driver <string>  = "MouseQueue" (cb=11)
+00:00:07.278476 
+00:00:07.278476 [/USB/HidMouse/0/LUN#0/AttachedDriver/] (level 5)
+00:00:07.278479   Driver <string>  = "MainMouse" (cb=10)
+00:00:07.278479 
+00:00:07.278480 [/USB/HidMouse/0/LUN#0/Config/] (level 5)
+00:00:07.278482   QueueSize <integer> = 0x0000000000000080 (128, 128 B)
+00:00:07.278484 
+00:00:07.278484 [/USB/USBProxy/] (level 2)
+00:00:07.278486 
+00:00:07.278486 [/USB/USBProxy/GlobalConfig/] (level 3)
+00:00:07.278488 
+00:00:07.278489 ********************* End of CFGM dump **********************
+00:00:07.278693 HM: HMR3Init: Attempting fall back to NEM: VT-x is not available
+00:00:07.403280 NEM:  info: Found optional import WinHvPlatform.dll!WHvQueryGpaRangeDirtyBitmap.
+00:00:07.403311 NEM:  info: Found optional import vid.dll!VidGetHvPartitionId.
+00:00:07.403320 NEM:  info: Found optional import vid.dll!VidGetPartitionProperty.
+00:00:07.403429 NEM: WHvCapabilityCodeHypervisorPresent is TRUE, so this might work...
+00:00:07.403442 NEM: WHvCapabilityCodeExtendedVmExits      = 0x00000000000003ff
+00:00:07.403452 NEM:                       fExtendedMsrExit: 1
+00:00:07.403460 NEM:                     fExtendedCpuIdExit: 1
+00:00:07.403469 NEM:                      fExtendedXcptExit: 1
+00:00:07.403476 NEM: Warning! Unknown VM exit definitions: 0x3ff
+00:00:07.403577 NEM: Warning! Unknown feature definitions: 0x7f
+00:00:07.403593 NEM: Supported exception exit bitmap: 0xf7dfb
+00:00:07.403608 NEM: WHvCapabilityCodeProcessorVendor      = 1 - Intel
+00:00:07.403629 NEM: WHvCapabilityCodeProcessorFeatures    = 0x008170404004019f
+00:00:07.403640 NEM:                            Sse3Support: 1
+00:00:07.403647 NEM:                        LahfSahfSupport: 1
+00:00:07.403654 NEM:                           Ssse3Support: 1
+00:00:07.403660 NEM:                          Sse4_1Support: 1
+00:00:07.403670 NEM:                          Sse4_2Support: 1
+00:00:07.403679 NEM:                           Sse4aSupport: 0
+00:00:07.403688 NEM:                             XopSupport: 0
+00:00:07.403695 NEM:                          PopCntSupport: 1
+00:00:07.403702 NEM:                      Cmpxchg16bSupport: 1
+00:00:07.403711 NEM:                       Altmovcr8Support: 0
+00:00:07.403718 NEM:                           LzcntSupport: 0
+00:00:07.403725 NEM:                     MisAlignSseSupport: 0
+00:00:07.403736 NEM:                          MmxExtSupport: 0
+00:00:07.403746 NEM:                        Amd3DNowSupport: 0
+00:00:07.403756 NEM:                ExtendedAmd3DNowSupport: 0
+00:00:07.403765 NEM:                         Page1GbSupport: 0
+00:00:07.403775 NEM:                             AesSupport: 0
+00:00:07.403783 NEM:                       PclmulqdqSupport: 0
+00:00:07.403792 NEM:                            PcidSupport: 1
+00:00:07.403799 NEM:                            Fma4Support: 0
+00:00:07.403806 NEM:                            F16CSupport: 0
+00:00:07.403816 NEM:                          RdRandSupport: 0
+00:00:07.403822 NEM:                        RdWrFsGsSupport: 0
+00:00:07.403831 NEM:                            SmepSupport: 0
+00:00:07.403838 NEM:              EnhancedFastStringSupport: 0
+00:00:07.403847 NEM:                            Bmi1Support: 0
+00:00:07.403853 NEM:                            Bmi2Support: 0
+00:00:07.403860 NEM:                           MovbeSupport: 0
+00:00:07.403868 NEM:                          Npiep1Support: 1
+00:00:07.403876 NEM:                   DepX87FPUSaveSupport: 0
+00:00:07.403883 NEM:                          RdSeedSupport: 0
+00:00:07.403890 NEM:                             AdxSupport: 0
+00:00:07.403896 NEM:                   IntelPrefetchSupport: 0
+00:00:07.403903 NEM:                            SmapSupport: 0
+00:00:07.403912 NEM:                             HleSupport: 0
+00:00:07.403920 NEM:                             RtmSupport: 0
+00:00:07.403926 NEM:                          RdtscpSupport: 1
+00:00:07.403933 NEM:                      ClflushoptSupport: 0
+00:00:07.403940 NEM:                            ClwbSupport: 0
+00:00:07.403951 NEM:                             ShaSupport: 0
+00:00:07.403962 NEM:                X87PointersSavedSupport: 0
+00:00:07.403969 NEM: Warning! Unknown CPU features: 0x8170404004019f
+00:00:07.403983 NEM: WHvCapabilityCodeProcessorClFlushSize = 2^8
+00:00:07.403997 NEM: Warning! Unknown capability 0x4 returning: 3f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:07.404907 NEM: Warning! Unknown capability 0x1003 returning: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:07.404954 NEM: Warning! Unknown capability 0x1004 returning: 95 8c 47 be 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:07.404972 NEM: Warning! Unknown capability 0x1005 returning: 00 c2 eb 0b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:07.404983 NEM: Warning! Unknown capability 0x1006 returning: 02 00 00 00 00 00 00 00 9f 01 04 40 40 70 81 00 00 00 00 00 00 00 00 00
+00:00:07.407430 NEM: Created partition 000001980dbad5a0.
+00:00:07.407671 NEM:
+00:00:07.407671 NEM: NEMR3Init: Snail execution mode is active!
+00:00:07.407672 NEM: Note! VirtualBox is not able to run at its full potential in this execution mode.
+00:00:07.407672 NEM:       To see VirtualBox run at max speed you need to disable all Windows features
+00:00:07.407672 NEM:       making use of Hyper-V.  That is a moving target, so google how and carefully
+00:00:07.407672 NEM:       consider the consequences of disabling these features.
+00:00:07.407672 NEM:
+00:00:07.407730 CPUM: No hardware-virtualization capability detected
+00:00:07.407744 CPUM: fXStateHostMask=0x0; initial: 0x0; host XCR0=0x0
+00:00:07.409713 CPUM: Matched host CPU INTEL 0x6/0x25/0x5 Intel_Core7_Westmere with CPU DB entry 'Intel Core i7-3960X' (INTEL 0x6/0x2d/0x6 Intel_Core7_SandyBridge)
+00:00:07.409788 CPUM: MXCSR_MASK=0xffff (host: 0xffff)
+00:00:07.409818 CPUM: Disabled PCID without FSGSBASE to workaround buggy guests
+00:00:07.409843 CPUM: Microcode revision 0x00000007
+00:00:07.409866 CPUM: MSR/CPUID reconciliation insert: 0x0000010b IA32_FLUSH_CMD
+00:00:07.409875 CPUM: MSR/CPUID reconciliation insert: 0x0000010a IA32_ARCH_CAPABILITIES
+00:00:07.409883 CPUM: MSR fudge: 0x00000001 IA32_P5_MC_TYPE
+00:00:07.409889 CPUM: MSR fudge: 0x00000017 IA32_PLATFORM_ID
+00:00:07.409895 CPUM: MSR fudge: 0x0000001b IA32_APIC_BASE
+00:00:07.409900 CPUM: MSR fudge: 0x0000008b BIOS_SIGN
+00:00:07.409905 CPUM: MSR fudge: 0x000000fe IA32_MTRRCAP
+00:00:07.409910 CPUM: MSR fudge: 0x00000179 IA32_MCG_CAP
+00:00:07.409915 CPUM: MSR fudge: 0x0000017a IA32_MCG_STATUS
+00:00:07.409920 CPUM: MSR fudge: 0x000001a0 IA32_MISC_ENABLE
+00:00:07.409925 CPUM: MSR fudge: 0x000001d9 IA32_DEBUGCTL
+00:00:07.409930 CPUM: MSR fudge: 0x000001db P6_LAST_BRANCH_FROM_IP
+00:00:07.409935 CPUM: MSR fudge: 0x000001dc P6_LAST_BRANCH_TO_IP
+00:00:07.409940 CPUM: MSR fudge: 0x000001dd P6_LAST_INT_FROM_IP
+00:00:07.409945 CPUM: MSR fudge: 0x000001de P6_LAST_INT_TO_IP
+00:00:07.409950 CPUM: MSR fudge: 0x00000277 IA32_PAT
+00:00:07.409955 CPUM: MSR fudge: 0x000002ff IA32_MTRR_DEF_TYPE
+00:00:07.409960 CPUM: MSR fudge: 0x00000400 IA32_MCi_CTL_STATUS_ADDR_MISC
+00:00:07.409966 CPUM: MSR fudge: 0xc0000103 AMD64_TSC_AUX
+00:00:07.409972 CPUM: MSR fudge: 0x00000122 IA32_TSX_CTRL
+00:00:07.409994 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:07.410002 CPUM: SetGuestCpuIdFeature: Enabled SYSCALL/RET
+00:00:07.410007 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:07.410012 CPUM: SetGuestCpuIdFeature: Enabled LAHF/SAHF
+00:00:07.410017 CPUM: SetGuestCpuIdFeature: Enabled NX
+00:00:07.410022 CPUM: SetGuestCpuIdFeature: Enabled LONG MODE
+00:00:07.422894 NEM: HvPartitionPropertyProcessorVendor=0x1 (1)
+00:00:07.422968 NEM: Successfully set up partition (device handle 0000000000001310, partition ID 0x13)
+00:00:07.423302 PGM: Host paging mode: AMD64+NX
+00:00:07.423327 PGM: PGMPool: cMaxPages=2304 (u64MaxPages=2084)
+00:00:07.423336 PGM: pgmR3PoolInit: cMaxPages=0x900 cMaxUsers=0x1200 cMaxPhysExts=0x1200 fCacheEnable=true
+00:00:07.428465 SUPLib: MEM_LARGE_PAGES privilege not held.
+00:00:07.428592 AssertLogRel D:\tinderboxa\win-7.0\src\VBox\Runtime\win\RTErrConvertFromWin32.cpp(464) int __cdecl RTErrConvertFromWin32(unsigned int): <NULL>
+00:00:07.428610 Unhandled error 1455
+00:00:07.428619 AssertLogRel D:\tinderboxa\win-7.0\src\VBox\VMM\VMMR3\PGMPhys.cpp(1841) int __cdecl PGMR3PhysRegisterRam(struct VM *,unsigned __int64,unsigned __int64,const char *): RT_SUCCESS_NP(rc)
+00:00:07.428639 rc=VERR_UNRESOLVED_ERROR cbRamRange=14671984
+00:00:07.428752 NEM: Destroying partition 000001980dbad5a0 with its 2 VCpus...
+00:00:07.556489 VMSetError: D:\tinderboxa\win-7.0\src\VBox\VMM\VMMR3\VM.cpp(341) int __cdecl VMR3Create(unsigned int,const struct VMM2USERMETHODS *,unsigned __int64,void (__cdecl *)(struct UVM *,void *,int,const char *,unsigned int,const char *,const char *,char *) noexcept,void *,int (__cdecl *)(struct UVM *,struct VM *,const struct VMMR3VTABLE *,void *) noexcept,void *,struct VM **,struct UVM **); rc=VERR_UNRESOLVED_ERROR
+00:00:07.556499 VMSetError: Unresolved (unknown) host platform error.
+00:00:07.557759 ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={6ac83d89-6ee7-4e33-8ae6-b257b2e81be8} aComponent={ConsoleWrap} aText={Unresolved (unknown) host platform error. (VERR_UNRESOLVED_ERROR)}, preserve=false aResultDetail=-35
+00:00:07.558216 Console: Machine state changed to 'PoweredOff'
+00:00:07.570652 Power up failed (vrc=VERR_UNRESOLVED_ERROR, hrc=E_FAIL (0X80004005))
+00:00:07.572605 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:07.572667 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={4680b2de-8690-11e9-b83d-5719e53cf1de} aComponent={DisplayWrap} aText={The console is not powered up (Display::setVideoModeHint)}, preserve=false aResultDetail=0
+00:00:07.573345 GUI: Aborting startup due to power up progress issue detected...
+00:00:07.595010 GUI: UICommon: Handling aboutToQuit request..
+00:00:08.106161 GUI: UICommon: aboutToQuit request handled!

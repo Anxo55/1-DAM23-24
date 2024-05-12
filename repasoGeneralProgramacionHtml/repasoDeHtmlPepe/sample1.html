@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejemplo 1 js</title>
+	<script language="Javascript">
+<!--
+function enviar(){
+   if ((document.forms.datos.sistema1.checked == true) && (document.forms.datos.sistema2.checked == true)){ 
+         alert('debe hacer una sóla selección')
+     }
+    else if (document.forms.datos.sistema1.checked == true) 
+    	document.forms.datos.action = "/jsp/pag_1.jsp"
+    else if (document.forms.datos.sistema2.checked == true) 
+    	document.forms.datos.action="/jsp/pag_2.jsp"
+    else alert ('debe hacer una selección')
+    document.forms.datos.submit()
+    }
+-->
+</script>
+</head>
+<body>
+
+
+
+<FORM  NAME="datos" ACTION="/jsp/pag_3.jsp" METHOD= "post">
+<INPUT TYPE="checkbox" NAME="sistema1">Sistema 1
+<INPUT TYPE="checkbox" NAME="sistema2">Sistema 2
+<INPUT TYPE="button" VALUE="enviar" ONCLICK="enviar()">
+
+</FORM>
+
+</body>
+</html>

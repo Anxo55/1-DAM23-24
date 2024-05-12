@@ -1,0 +1,175 @@
+ ----------
+|08/01/2024|
+ ----------
+-Empezamos con el MySql y nos explicar el USE.
+-Con el use podemos escoger la bbdd que queremos utilizar y podemos usar dos en el mismo query.
+
+ ----------
+|09/01/2024|
+ ----------
+-Creamos una base de datos de los pdf que subio, y creamos 4 tablas.
+-Todo subido a github.
+
+ ----------
+|10/01/2024|
+ ----------
+-Crear una base de datos que está subida al classroom.
+
+ ----------
+|11/01/2024|
+ ----------
+-Vamos a ver el alter table, corregimos la practica de las tablas.
+-Hecha en la practica3 la tabla y hacemos el ejemplo del alter table.
+-Motores de almacenamiento(Mas comun es InnoDB).
+-Generalmente usaremos tablas de InnoDB.
+-Seguir con las practicas de EmpresasABC.
+
+ ----------
+|15/01/2024|
+ ----------
+-Correccion ejercicios de empresasABC.
+-Antonio subió varios de los enunciados, continuar con los que nos faltan por hacer.
+
+ ----------
+|18/01/2024|
+ ----------
+-Tema 10: Las consultas.
+-GROUP BY.
+-Hacer los ejercicios de la practica3 de empresasABC.
+-Continuar en casa con los ejercicios para repasar.
+
+ ----------
+|23/01/2024|
+ ----------
+-Hacemos las correcciones de los ejercicios 9 21 22 del boletin 3
+-Nuevo boletin subido de ejercicios para Northwind.
+
+ ----------
+|24/01/2024|
+ ----------
+-Hecha la practica5 de los ejercicios de northwnid.
+-Continuar con las practicas de los ejercicios 200
+
+ ----------
+|25/01/2024|
+ ----------
+-Continuar con las practicas que mandó de mysql.
+-Revisar los de la practica5b y volver a hacerlos como el de la practica5
+-Empezar con la practica5c.
+
+ ----------
+|29/01/2024|
+ ----------
+-Correccion de las ultimas practicas q hicimos.
+-Seguimos las practicas del apartado 300.
+
+ ----------
+|30/01/2024|
+ ----------
+-Correccion de los ejercicios de northwind.
+
+ ----------
+|31/01/2024|
+ ----------
+-Having sirve para borrar grupos.
+-Empezamos con la teoria de subconsultas.
+
+ ----------
+|01/02/2024|
+ ----------
+-Nos mando hacer una subconsulta donde sacamos el total de pedidos de Nancy Davolio.
+-Vimos el test ANY.
+-Practicas de subconsultas subidas al classroom 
+-Terminar las practicas de mysql de northwind por la tarde y repasar la teoria.
+
+ ----------
+|05/02/2024|
+ ----------
+-Va a quitar los primeros ejercicios de subconsultas.
+-Subio un apartado de TiendaInformtica de sql, una imagen y un pdf.
+-Varios ejercicios de subconsultas hechos de TiendaInformatica en el script Tienda1.
+-Subido todo al classroom, terminarlo y repasar todo.
+
+ ----------
+|06/02/2024|
+ ----------
+-Correccion de los ejercicios de subconsultas.
+-Hacer las practicas que faltan y repasar subconsultas.
+
+ ----------
+|07/02/2024|
+ ----------
+-Seguir con las subconsultas.
+-Revisar los ejercicios 15 y 17 de subconsultas de tiendaInformatica.
+
+ ----------
+|08/02/2024|
+ ----------
+-Seguir con las practicas de subconsultas de TiendaInformatica.
+
+ ----------
+|19/02/2024|
+ ----------
+-Consultas sobre varias tablas.
+-Luego sube todo al classroom.
+-Usamos UNION para unir varias consultas.
+-Usas el ALL para sacar los duplicados (UNION ALL).
+-A y B son tablas de ahora en adelante.
+-Utilizando los joins.
+-Cuando ponemos en un caso producto p o fabricante f, cuando a un atributo se lo ponemos delante es para referirse al de
+ esa tabla.
+-Utilizamos el alias (p o c)(ejemplos) cuando se repite un atributo en varias tablas.
+-Practica de Joins con EmpresasABC, todo subido en la carpeta de Joins.
+-Boletin 3 de empresasABC para hacer de practica para los JOINS.
+
+ ----------
+|20/02/2024|
+ ----------
+-Right Join.
+-Hacer el boletin 2 de empresasABC para hacer JOIN.
+-Terminar la practica en casa y repasar los que no salieron.
+
+ ----------
+|21/02/2024|
+ ----------
+-Correccion de los ejercicios de EmpresasABC.
+-Seguir con los ejercicios en casa.
+
+ ----------
+|26/02/2024|
+ ----------
+-Estamos con el boletin 3 de empresasABC.
+-Terminamos en el ejercicio 13, continuamos nosotros la 2 hora de clase.
+-Repasar el boletin 2 para terminarlo y el boletin 3 hacer los primeros y corregir a partir del 13 que están en duda.
+
+ ----------
+|29/02/2024|
+ ----------
+-Seguimos corrigiendo el tercer boletin de empresasABC.
+-Nos sube el script del tercer boletin de empresasABC.
+-Nos mandó seguir con el boletin 4 de empresasABC.
+
+ ----------
+|04/03/2024|
+ ----------
+-Haciendo el boletin 4 de empresasABC con subconsultas.
+-La subconsulta numero 5 para hacer en casa, de esa dificultad no entrará en el examen.
+
+ ----------
+|05/03/2024|
+ ----------
+-Empezamos con sakila y mandó practica para hacer.
+
+ ----------
+|06/03/2024|
+ ----------
+-Practica con Sakila.
+-Varios ejercicios, continuar en casa.
+
+ ----------
+|07/03/2024|
+ ----------
+-Seguimos con los ejercicios de sakila, ver el ejercicio 116 otra vez por su nivel de dificultad.
+-Hicimos hasta el ejercicio 116, a partir de aqui seguimos nostros.
+-Continuar con el ejercicio119 y a partir de ahi seguir para repasar para el examen del lunes.
+

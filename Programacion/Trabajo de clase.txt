@@ -1,0 +1,468 @@
+PROGRAMACION.
+ ------------
+|#13/09/2023#|
+ ------------
+Accedemos al classroom y además vemos el indice.
+
+ ------------
+|#14/09/2023#|
+ ------------
+
+Instalamos el eclipse, creamos el primer proyecto que lo llamamos uno, dlnde creamos la primera clase "holamundo".
+
+Por ultimo creamos la segunda clase hola amigo, donde mostrabamos nuestro nombre, creando el atributo "String nombre"
+y mostrando el mensaje por pantalla.
+
+ ------------
+|#15/09/2023#|
+ ------------
+
+-Explicamos los string(de cadena, como los nombres, el apellido),
+-el int(los enteros como los numeros), los boolean(verdadero y falso),
+-los float(flotantes como 1,10),char(dato donde almacenamos un caracter, como la "a", el "7"),
+-double(puedo almacenar hasta 32 digitos), etc... 
+-Para que sirve cada uno y en que se desarolla
+ ------------
+|#18/09/2023#|
+ ------------
+APARTADO 1.4 TIPOS Y DATOS SIMPLES
+-Vemos los tipos de datos (byte, short, int, long, char, float, double, boolean...)
+-Creamos la clase test donde comprobamos cada uno de los datos, lo probamos 
+mostrandolos por pantalla, y comentando de que va cada uno de ellos.
+
+APARTADO 1.5 CONSTANTES Y LITERALES
+-Probamos el metodo "final static double PI = 3.141592;"
+En este metodo tenemos que eliminar el static
+
+ ------------
+|#19/09/2023#|
+ ------------
+
+-Entra de teoria para el examen lo del byte code(Programacion 1 pdf)
+-Hacemos la clase calculos donde sacamos la longitud y el area del circulo
+-Tambien hicimos la clase esfera, donde sacamos la superficie y la longitud
+-Por ultimo hacemos la clase cuadrado y rectangulo.
+
+ ------------
+|#20/09/2023#|
+ ------------
+-Empezamos con el punto 1.6 acerca de las variables
+-Creamos la clase triangulo donde guardamos los tres lados, y mandamos un mensaje donde nos dice si se puede o no crear
+el triangulo.
+-Creo un metodo boolean donde meto el metodo para saber cuando puede ser triangulo, y lo creo el los if(else).
+-Creamos la clase bisiesto donde pedimos un año y nos dice si es bisiesto o no.
+
+ ------------
+|#21/09/2023#|
+ ------------
+-Terminamos de dar el punto 1.6, y empezamos con el punto 1.7 que se trata de operadores y expresiones.
+-Creamos la clase suma donde pedimos los dos numeros y hacemos la suma, despues creamos la clase test2.
+-Por ultimo creamos la clase sumarEntero donde pedimos dos numeros y nos da el cociente y el resto.
+
+ ------------
+|#25/09/2023#|
+ ------------
+-Operadores logicos.
+	-En caso de que A y B sean los dos distintos en && es false, para que sea true tienen que ser igual tipo(1,1)
+	-En caso de que A y B sean los dos distintos en || es false, con que uno sea(1,0) serian true, solo hace falta que
+	uno sea positivo.
+-Operadores unitarios o unarios.
+
+-Operadores de asignación
+	-= A = B Asignación. Operador ya visto.
+	*= A *= B Multiplicación y asignación. La operación A*=B equivale a A=A*B.
+	/= A /= B División y asignación. La operación A/=B equivale a A=A/B.
+	%= A %= B Módulo y asignación. La operación A%=B equivale a A=A%B.
+	+= A += B Suma y asignación. La operación A+=B equivale a A=A+B.
+	-= A -= B Resta y asignación. La operación A-=B equivale a A=A-B.
+- Precedencia de operadores
+	
+ ------------
+|#26/09/2023#|
+ ------------
+-Empezamos con los ejercicios resueltos del pdf Programacion 1, la primera clase es la de getLetras, donde nos devuelve
+4 caracteres random de letras.	
+
+-En el primer resuelto generamos elo getLetras con el metodo char donde nos muestra letras de la A a la Z random
+usando un Math.random, si cambiamos el char por un int, los valores cambian de 97 a 122 por ser entereos, ya que
+la a=97 y la z=122.
+
+-Nos pidio hacer un metodo donde sacabamos 100 letras al azar.
+
+-Clase  ejercicioPrevioCies, donde pedimos por pantalla un caracter que almacena, despues sacamos los 100 caracteres
+random y al final lo recorre y cuenta las veces que salió dicho caracter.
+
+ ------------
+|#28/09/2023#|
+ ------------
+-Tras hacer los resueltos de previoCies y el resuelto 4, hicimos el resuelto 5 donde pedimos tres variables, donde
+pedimos la edad, el nivel de estudios y los ingresos, y pedimos por un booleano 3 metodos que se tienen que cumplir,
+con las variables para que sea true, sino es false.
+
+-Hacemos el propuesto 1 y hacemos un segundo llamado propuesto1b, en esta clase creamos un metodo sumar, pero creamos
+un constructor sumar y otro restar, que nos devuelve la suma y la resta de sus variables. 
+
+-Mando hacer un ejercicio donde escogeremos entre la opcion suma, resta o salir pero se pide por letra con el metodo
+switch.
+
+ ------------
+|#29/09/2023#|
+ ------------
+-En la clase propuesto1c creamos el metodo switch, a mayores usamos el metodo do while que va haciendo el metodo
+repetidamente hasta que sea lo contrario. Lo iniciamos al principio cuando pedimos los enteros, despues se repetirá
+hasta que salga la opcion contraria y se termine el programa.
+
+-Para el bucle dowhile, creamos una variable boolean para instanciar el metodo, el cual meteremos en el metodo dowhile
+
+ ------------
+|#02/10/2023#|
+ ------------
+-Hicimos el propuesto 8 donde creamos una clase que nos diga wl porcentaje de vocales y demas, que nos diga si son 
+vocales o consonantes.
+-Repasarlo de nuevo con todos los metodos etc...
+
+ ------------
+|#03/10/2023#|
+ ------------
+-Propuseto 11 y 12, explica el bucle while que mientras sea true vuelve y cuando sea false termina el programa.
+-Visto bucle while, en caso de pedir un numero que sea <=5, nos pasará numeros que esten dentro del rango y el programa seguirá ejecutandose, si se pasa de 5 sale del bucle.
+-EJEMPLO:
+	public class while1 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int numero=1;
+		
+		while(numero<=5) {
+			System.out.println("Pasame un entero");
+			numero = sc.nextInt();
+		}
+		
+	}
+
+}
+ ------------
+|#04/10/2023#|
+ ------------
+-Creamos la clase metodosCambio, donde nos pide que hagamos una conversión de dolares a euros y de euros a dolares.
+-Revisar la clase, ya que tuvimos un error tras el metodo obtenerValor.
+-Creamos tambien la clase de centimetros a pies y pulgadas y viceversa.
+
+ ------------
+|#05/10/2023#|
+ ------------
+-Empezamos con (POO) que es la porgramacion orientadad o objetos.
+-Diferencia entre objeto y clase.
+-Conocer estructura basica de las clases
+-Las clases tienen una estructura parecida a la siguiente:
+
+	[algo_l] class nombre_de_la_clase [algo_2] {
+		[Atributos]
+		[Métodos]
+}
+
+-Extends o implements
+-Metodo equals para distinguir dos objetos.(Comprobar en casa y preguntar por el metodo equals igualmente).
+
+-CARACTERÍSTICAS DE LA PROGRAMACIÓN ORIENTADA A OBJETOS: 
+	*Abstracion:
+	*Encapsulamiento:
+	*Polimorfismo:
+	*Herencia:
+
+-Ejemplo setEdad(metodo set), le pasas la edad y el get es devolver ese valor.
+-En el ejemplo pajaro, creamos el metodo nombre, y le pasamos el this.nombre, en el set.
+
+ ------------
+|#06/10/2023#|
+ ------------
+Ejemplos: 
+	-InputStreamReader isr = new InputStreamReader(System.in); 
+	-Buf feredReader buff = new Buf feredReader (isr)
+	-String ln = buff.readLine();
+-Se habla del try catch pero no lo usaremos todavia, si es necesrio revisarlo igualmente.
+
+-Vimos lo constructores por defecto creados en la clase pajaro, el cual no anula al constructor creado con todos los
+ parametros.
+
+-Creamos varios pajaros en la clase testPajaro, donde metodos los constructores que metemos.
+
+-Vemos el metodo toString para mostrar en la consola los parametros de edad, color, nombre y demas.
+
+ ------------
+|#09/10/2023#|
+ ------------
+-Incluimos el metodo nuevopajaro, que irá incrementando el numero de pajaros que sale por consola.
+-LIBRERÍAS DE OBJETOS (PAQUETES)
+-LA SENTENCIA IMPORT
+-Empezamos con los ejercicios propuestos y creamos la clase propuesto 1 donde hacemos la conversion de
+ celsiusToFarenheit y a la inversa.
+-Terminar la clase coche y testCoche dependiendo de los kilimotres mandar un mensaje.
+
+-Tras revisar en casa la clase coche y testCoche, documento todo y veo los metodos que hice en la clase coche, que le dará
+la informacion a la clase testCoche, para cuando se ejecute vea los valores y muestre el mensaje necesario por pantalla.
+
+ ------------
+|#10/10/2023#|
+ ------------
+-Varios ejercicios resueltos del segundo pdf sobre POO, por ultimo mañana nos dijo que haremos mañana el ultimo resuelto 
+
+-Ademas hice algun ejercicio en el paquete de cosasVarias, como el de adivinar un numero aleatorio pasando numero por consola hasta adivinarlo.
+
+ ------------
+|#11/10/2023#|
+ ------------
+-Hacemos la clase rebajas la cual nos da el porcentaje de descuento que nos hace del precio original, al actual.
+-En la misma clase creamos un nuevo metodo
+-Repetimos el ejercicio de pies a pulgadas, donde llamamos a la clase pipu en el paquete de resueltos, del paquete madre (dos)
+ puede que lo pida hacer a la inversa.
+-Revisar esa clase y el resto del paquete 2, y repasar cosas del primero ya que ayudan bastante para lo actual en POO.
+
+-En la carpeta personal de casa, cree algun objeto para practicar, pero mejor preguntar por los metodos de ingresar cantidad y quitar
+ ya que pasando la cantidad despues de introducirla ns como tendría que verse.
+
+ ------------
+|#16/10/2023#|
+ ------------
+-Hacemos la clase propuesto1 en el paquete 2, nos pide una clase finanzas donde hay q hacer de euro a dolar, creamos varios
+ metodos en la clase para que sea mas visible y tener todo ordenado por metodos.
+
+-Hacemos tambien el propuesto 2 que le llamamos MiNumero, donde creamos los metodos doble triple y cuadruple,
+ y lo mostramos en su clase test.
+
+-Por ultimo hacemos la clase numero y testNumero, donde creamos los metodos anteriores de doble, pero ademas le añadimos el
+ metodo de añadir y restar y lo volvemos a mostrar.
+
+ ------------
+|#17/10/2023#|
+ ------------
+-Hacemos el propuesto 5 que mejorar la clase satelite de los resueltos, dejamos sin hacer el 6 ya que no daba tiempo y
+ pasamos al 7, pero si se puede se hace en casa.
+
+ ------------
+|#18/10/2023#|
+ ------------
+-Mirar practica con JFrame  con metodos de conversion o de calculadora.
+-La clase peso la dejamos sin hacer.
+-Hacemos el propuesto 8 que es la clase coche.
+-Continuando empezamos con la clase consumo que es el propuesto 9.
+
+ ------------
+|#19/10/2023#|
+ ------------
+-Hacemos el propuesto 11 que es la clase restaurante.
+-En la clase restaurante para que 3 comensales pueda comer necesitan 1.0 de patatas y 0.5 de chocos, por lo tanto
+ el metodo si las patatas es mayor que el doble que le pasamos de choco hace un metodo, sino otro.
+-Ademas hacemos la clase almacen que es del propuesto 12, en la que metemos los metodos de la clase restaurante y
+ la vamos a ir mejorando con lo que pide para el propuesto 12.
+
+ ------------
+|#20/10/2023#|
+ ------------
+-Terminando la clase Almacen creando sus constructores, los metodos getters y setters, y donde meteremos mas kilos tanto
+ a los chocos existentes como a las patatas.
+-Y tambien uno que nos devuelva el numero de comensales que puede atender el restaurante.
+-Clase almacen terminada, revisarla con los metodos que muestra los comensales, y el metodo donde tendrá que ir al mercado
+ y mostrariamos el total de patatas y chocos que tenemos despues de la compra y todo.
+
+ ------------
+|#23/10/2023#|
+ ------------
+-Empezamos con el tema 3.
+-Alternativa al if else de la clase Almacen de Papas y Chocos, subido al classroom usando un while, mientras las unidades
+ sean mayores que las minimas se come, y se resta lo que das.
+
+-Diferentes maneras de declarar el if, en vez de hacer algun if usando también if else
+-ejercicioCondicional, donde tenemos tarjeta oro, club y joven, donde tenemos que aplicar varios estilos.
+-Revisar el ejercicio, y volver a intentarlo solo con if else, y mirar el del examen del año pasado.
+
+------------
+|#24/10/2023#|
+ ------------
+-Correccion del ejercicioCondicionales.
+-Corregimos la clase condicional y hicimos una segunda version.
+-Subio un segundo ejercicio de condicionales en el classroom.
+
+------------
+|#25/10/2023#|
+ ------------
+-Correcion del ejercicio de condicionales 2.
+-Dimos varios ejemplos del metodo switch.
+
+------------
+|#27/10/2023#|
+ ------------
+-Estructura de repeticion.
+-Try catch probando el thread.sleep
+-Estructura desalto.
+-Mirar ejemplo7 donde salta el numero 5 usando el if y haciendo numero==5 con el continue.
+-Mirar el ejemplo8 en casa, el de las estrrllas.
+
+------------
+|#30/10/2023#|
+ ------------
+-Dos ejemplos de tabla de multiplicar donde primero pedimos el numero y que nos devuelva su tabla.
+-El segundo ejemplo de tabla es donde nos sale todas las tablas seguidas de una en una.
+-Clase que me muestre para la tabla del 1 su primer valor, para la del dos, los dos primeros valores, y asi hasta llegar al 10.
+-Con el try catch en caso de tener un error no te salta y manda el mensaje que pones, ver el ejemplo12 t mas.
+
+------------
+|#31/10/2023#|
+ ------------
+-Ejercicios resueltos, donde hacemos el triangulo de caracteres.
+-Hacemos la clase que devuelve los 5 primeros numeros pares.
+-Hacemos el ejercicio resuelto de un numero amstrong de 3 cifras.
+-Ejercicio de hacer un numero amstrong pero de 4 cifras para entregar.
+
+ ------------
+|#01/11/2023#|
+ ------------
+-Correccion del numero amstrong de 4 cifras.
+-Varios resueltos mas, entre ellos uno de pasar el caracter a minusculas.
+
+
+ ----------
+|03/11/2023|
+ ----------
+-Empezamos con los ejercicios propuestos, donde el primer hay que decir cual de los 3 numero que pasamos es el mayor, y
+ cual es el mas pequeño de los 3.
+-Hicimos por ultimo el  resuelto7 donde usamos un bucle for hasta 10 y mostrandolo con un switch.
+
+ ----------
+|06/11/2023|
+ ----------
+-Practica del lucky number.
+-Alguna practica mas de los triangulos, dejando espacios en blanco y demas.
+-Ver la clase del lucky para repasarla, y el resto.
+-Hacer las practicas de repaso de chatGPT.
+
+ ----------
+|07/11/2023|
+ ----------
+-Vista del porpuesto5 del metodo lucky con un while.
+-Clase digitos donde usamos metodos iterativos y repetitivos de numeros.
+-Tambien metodo recursivo para dar la vuelta el numero que pasamos.
+-Tarea del amnstrong propuesto, que da mal en los numeros que son amstrong.
+
+ ----------
+|08/11/2023|
+ ----------
+-Correccion de la practica de Amstrong de los propuestos.
+-Boletin de practica de ejercicios de repaso.
+-Boletin entregado en el classroom.
+
+ ----------
+|09/11/2023|
+ ----------
+-Manda hacer otro boletin que es el segundo, con otras 7 practicas.
+-Hecho el segundo boletin, hacerlo de repaso en casa despues de descansar.
+
+ ----------
+|09/11/2023|
+ ----------
+-Ejercicio practica de los numeros romanos, corregir para que de bien con el 4 el 9 etc.
+
+ ----------
+|13/11/2023|
+ ----------
+-Practica del ejercicio del numero Primo.
+
+ ----------
+|14/11/2023|
+ ----------
+-Hecho el propuesto12.
+-La practica del vampiro todavia sin hacer.
+-Creamos la carpeta de sucesiones en el bloque 3, y le creamos la clase de aritmetica.
+-Hacemos la practica aritmetica pero con arrays.
+
+ ----------
+|15/11/2023|
+ ----------
+-Practica de Geometrica donde hacemos una progesion y despues se recorre y muestra la suma de todos sus valores.
+-Ejercicio de fibonacci.
+
+ ----------
+|17/11/2023|
+ ----------
+-Practica de programacion.
+-Capitulo 4 de programacion, con mas POO.
+
+ ----------
+|20/11/2023|
+ ----------
+-Niveles de acceso(public, private, protected, no especifico(acceso en su paquete)).
+-Copia superficial vs copia profunda en java.
+
+ ----------
+|21/11/2023|
+ ----------
+-Mas ejemplos del 4 capitulo de programacion.
+-Hacemos varias practicas con el Rectangulo, y sobre todo con los testeos para ir comprobando y demás.
+
+ ----------
+|22/11/2023|
+ ----------
+-Utilizamos el hascode en la clase de rectangulo.
+-Revisar como funciona, ya que se utiliza como el metodo equals.
+-Hibernate.
+-Como esta escrito el equals de cadenas.
+-Clase testStrings.
+-Clase cohete.
+
+ ----------
+|23/11/2023|
+ ----------
+-Paquete de recursos en el tema 4. 
+-Clase potencia con y sin metodo, recordar que la potencia tiene que ser igual a 1.
+-Diferencia entre valor y referencia. 
+-El mismo codigo pero en recursivo.
+
+ ----------
+|24/11/2023|
+ ----------
+-Prueba de repaso de numero decimal a binario.
+
+ ----------
+|27/11/2023|
+ ----------
+-Correccion de la practica de decimal a binario.
+-Practica de Fibonacci en el capitulo 4 con metoodo iterativo.
+-Tambien pasamos la clase Aritmetica y la clase Geometrica.
+-Hacemos en la clase de Fibonnacci el metodo iterativo y el recursivo.
+-Corregir la piramide 2 que está mal copiada del pdf.
+
+ ----------
+|28/11/2023|
+ ----------
+-Black box para hacer copia.
+-Ejercicio TransfomarBase, probado con el debugging, ver algo acerca de este.
+
+ ----------
+|29/11/2023|
+ ----------
+-Termina la practica de TransformaBaseIterativo.
+-Empezamos los ejercicio propuestos.
+
+ ----------
+|01/12/2023|
+ ----------
+-Clase Pez y Espada, primera practica de herencia.
+-Tambien creamos al final la clase Martillo.
+-Por ultimo hacemos la clase testMarino donde crearemos algunos objetos.
+-Prueba del metodo nadar con cada uno de los peces creados
+-Con cada uno de los peces al tenre la herencia si le introducimos algo mas en el metodo en cada clase lo mostrara tambien
+
+
+ ----------
+|05/12/2023|
+ ----------
+-Entra el equals fijo en el examen.
+-Mirar numeros novios y amigos.
+-Ultimo ejemplo clase Bebe, donde implemente dos constructores y un metodo.
+
+EXAMEN PRIMERA EVALUACON:
+-Numeros gemelos y numeros perfectos.
+-MCD, MCM
+-Numeros novios, y numeros amigos.
+

@@ -1,0 +1,110 @@
+ ----------
+|08/04/2024|
+ ----------
+-Haciendo ejercicios de Sakila del boletín.
+-Mando hacer los ejercicios del 21 al 24.
+-Hechos los 4 ejercicios, revisar el primero.
+
+ ----------
+|09/04/2024|
+ ----------
+-Mirar la consulta 122.
+-Cuando volvemos a incluir una tabla en sql, no podemos utilizar USING sino ON.
+
+ ----------
+|11/04/2024|
+ ----------
+-Terminamos el boletin de sakila.
+-Revisar y volver a practicar con el boletin, sobre todo los ultimos donde utilizamps subconsultas.
+-Vemos el left join y el right join.
+-Inner Join.
+-Subido en el classroom varios enunciados para hacer de pratica de los left y right join.
+
+ ----------
+|15/04/2024|
+ ----------
+-Practica de left right Join.
+-Subida la teoria de los procedimientosd en el classroom.
+
+ ----------
+|16/04/2024|
+ ----------
+-En el classroom nos subió una página donde podemos practicar consultas.
+-La pagina es SQL playground.
+-Hoy vemos vistas.
+-Scrip Vistas1 donde damos los primeros ejemplos.
+-Ahora nos sube un documento de practica para empezar con ello.
+-Nos subió la BBDD de jardineria con la que vamos a trabajar con las vistas.
+
+ ----------
+|17/04/2024|
+ ----------
+-Continuamos con las practicas de vistas.
+
+ ----------
+|18/04/2024|
+ ----------
+-Subió más pdfs acerca de los procedimientos y las funciones.
+-tambíen corrigió los ejercicios de vistas de la BBDD de jardinería.
+-Hacer un script con esos resultado para compararlos con los que hice en clase.
+
+ ----------
+|22/04/2024|
+ ----------
+-3 practicas de procedimientos para hacer.
+
+ ----------
+|24/04/2024|
+ ----------
+-Mandó continuar con las practicas que subió, revisar la teoría y ponerse con la practica.
+
+ ----------
+|25/04/2024|
+ ----------
+-Por ahora continuar con la practica de procedimientos.
+-Estar en segundo con antonio para que me explique.
+
+-En los procedimientos tenemos que declarar arriba los datos, si son parametros de 
+ entrada(IN), salida(OUT) o entrada/salida(INOUT)
+-Para mostrar despues seria con el CALL @algo, que seria como lo tienes declarado
+-Para las funciones el IN no es necesario, solo la variable y que tipo es(INT, DOUBLE)
+ y para mostrarlo usas el SELECT.
+
+ ----------
+|29/04/2024|
+ ----------
+-Practica de procedimientos y funciones.
+-Mirar todo lo subido en el classroom.
+
+ ----------
+|30/04/2024|
+ ----------
+-Subida al classroom la practica de funciones y procedimientos.
+-Tanto en un comentario donde encontramos 10 y también un script donde hay 15 más para hacer.
+
+ ----------
+|02/05/2024|
+ ----------
+-En la primera hora continuamos con la practica de sakila.
+-En la segunda hora se pone a corregir los ejercicios.
+-Primer boletin de los 15 ejercicios terminado.
+-Empezar el segundo de los 10 ejercicios de funciones y procedimientos.
+
+ ----------
+|06/05/2024|
+ ----------
+-Correccion de los ejercicios, corregimos hasta el ejercicio 9.
+
+ ----------
+|07/05/2024|
+ ----------
+-Terminamos ya de corregir los primeros 15 ejercicios de funciones y procedimientos.
+-Nos mando seguir con los siguientes tras acabar los otros.
+
+ ----------
+|10/05/2024|
+ ----------
+-Corrigió mas ejercicios, y mando seguir con ellos.
+-Terminarlos para la semana que viene.
+
+

@@ -1,0 +1,486 @@
+ -----------
+|#13/09/2023#|
+ -----------
+Presentación de la clase
+NO dimos nada de materia.
+
+ -----------
+|#14/09/2023#|
+ -----------
+Algo de teoria acerca de lo que son sistemas informaticos, lo que es el sistema y lo que es la información.
+También como en bases de datos, repasamos los binarios, con algunos atajos para sacar tanto el binario como el decimal
+mas cómodo.
+
+ -----------
+|#15/09/2023#|
+ -----------
+
+1 byte=8bits
+8byte=64bits
+4byte=32bits
+
+-Diferencias entre hardware y software, también acerca de los tipos de sistemas operativos(Linux, Windows, Unix, Mac, Android).
+-Tarjetas perforadas, ejemplos y que es: Laminas de cartulina, perforadas de forma que contienen informacion en codigo binario.
+
+Cuantos bits hay en un interruptor: Por cada uno de los interrupetores puede tener dos estados, pero tienen cada uno UN bit
+Por lo tanto, al tener 3 interruptores, tenemos 3 bits
+
+Con tres interruptores el byte seria: 2*2*2 = 8 = 2^3.
+
+ -----------
+|#18/09/2023#|
+ -----------
+-Hablamos de Charles babbage
+-Ejercicios de calculo binario:
+	Preguntas:
+
+	-Tenemos una tarjeta perforada de 1000 personas con 10 categorías por persona.
+		* ¿Cuántos bits necesito para representar todos los estados posibles?
+		   	log2(estados posibles) = log2(10x1000) => log2(10000)=> 13,28=(14 bits)
+
+		* ¿Cuántos valores diferentes (memoria) puede almacenar esa hoja?
+			En base 2 con el total de los bits que tenemos sería:
+			(2^14=13.384)
+
+	-Tenemos un piano con 88 teclas (notas diferentes).
+		* ¿Cuántos bits necesitamos para representar todas?
+			Cada una de las teclas tiene dos estados, por lo tanto por cada tecla tenemos un bit,
+			en total tendriamos un total de 88 bits.
+
+		* Si utilizáramos las teclas del piano para representar información, ¿cuántos estados diferentes 
+		  podríamos representar? (contando que cada tecla puede estar o no pulsada, dando igual intensidad)
+			Estando pulsada o no, en total tenemos 88 bits, por lo tanto, teniendo en cuenta los bits,
+			Usando en base (2^88) serían los estados diferentes en los que podriamos representar.
+
+	-En el protocolo MIDI existen 128 diferentes intensidades de pulsación de tecla (se le llama velocity).
+		* ¿Cuántos bits necesito para representar las diferentes intensidades?
+			log2(128) = 7 bits.
+		* ¿Cuál es el valor máximo y mínimo de “velocity”?
+			min=0.
+			max=127
+
+
+DARO CURIOSO PARA PROXIMO DIA: 
+		Cuantos bits puede tener un CODIGO QR.
+
+ -----------
+|#20/09/2023#|
+ -----------
+-Correcion del apartado 2.1 del ejercicio del pianot
+
+-127/128 intensidades distintas = 7 bits
+-129-256 intensidades distintas = 8 bits
+
+Sistema Hexadecimal:
+	Empieza de 0-9 a partir del 9 cuenta desde la A-F, y sería un total de (15)
+	FF=255
+	F7=1111 0111
+	8F=1000 1111
+	FE=1111 1110
+	F8=1111 1000
+
+	7F= 7x16^1 + 15x16^0
+
+ -----------
+|#21/09/2023#|
+ -----------
+	TB=10^12
+	GB=10^9
+	MB=10^6
+	KB=10^3
+-Tipos de lenguajes, tanto alto como bajo, java, lenguaje ensamblador, etc...
+
+ -----------
+|#25/09/2023#|
+ -----------
+1TB = 
+1GB = 8x2^30
+1MB = 8x2^20
+1KB = 1024Bytes = 8x2^10 bits
+-¿Como leer un archivo en binario?
+
+-450KB = 450x8x2^10=3x10^6 bits
+-Hablamos con las maquinas en sistema hexadecimal.
+-¿cuantos colores se puedren representar?
+	*255x255x255=
+	*2^8x2^8x2^8
+-Descargamos una imagen de ada lovelace, donde lo abrimos en hexed.it, para ver como lo leeriamos en binario.
+-Entramos en la pagina dcode.fr donde tenemos informacion para leer archivos en binarios.
+-8hex = 4bytes.
+-TRABAJO:(Crear línea de tiempo cronológica con los elementos de la historia de las computadoras en Padlet)
+
+ -----------
+|#28/09/2023#|
+ -----------
+-log^2(1024) = 10 bits.
+
+-log^10(2) = 0.3
+-bits = log^10(1024)x3.33 
+-bits = log(n) * 3,33
+
+-16,7 x 10^6 = (¿bits?)
+
+ -----------
+|#29/09/2023#|
+ -----------
+-Presentacion del trabajo de la cronologia de las computadoras.
+-Kahoot sobre los bits, bytes y la cronologia de los ordenadores.
+
+ ----------
+|02/10/2023|
+ ----------
+-Dimos el tema de la elctricidad, la intensidad, el voltaje, como es el sentido de la corriente electrica.
+-Ley de On = V = IxR
+-I = V/R
+-I=5mA
+-1/RT = 1/R1 + 1/R2
+-Viendo las posiciones de las resistencias, saber cuando estan en serie o en paralelo.	909
+
+ ----------
+|04/10/2023|
+ ----------
+Diferencia entre electronica y electricidad.
+	*La electricidad es el fenómeno físico de la corriente eléctrica, 
+	 mientras que la electrónica es el estudio y el control de este fenómeno mediante elementos activos.
+-Componenete activo o pasivo.
+
+-¿Que es analogico?: 
+	*Lo analógico es aquello basado en la analogía: un vínculo de semejanza entre elementos distintos. 
+	*Este adjetivo, derivado del vocablo griego analogikós, suele usarse para hacer referencia a un tipo
+	 de sistema o de dispositivo.
+-2^16 = 65536
+-1/f = T
+-¿Que es un osciloscopio?
+-Ventajas y desventajas de sistemas digitales.
+	*Ventajas: Menor tamaño, Eficiencia, Precisión, Diseño, Estabilidad
+	*Desventajas: Conversión, Ancho de banda, Alteración.
+
+-Ventajas y desventajas de sistemas analogicos.
+	*Ventajas: Instantaneidad, Economía, Fidelidad.
+	*Desventajas:Menor tolerancia al ruido, Degradación de la señal, Dificultades técnicas.
+
+-Hemos trabajado en un excel compartido poniendo las desventajas y ventajas de los puntos de antes.
+
+ ----------
+|05/10/2023|
+ ----------
+-Piezoelectricidad.
+-Estuvimos viendo la practica de las ventajas y desventajas entre el sistema analogico y digital.
+
+ ----------
+|06/10/2023|
+ ----------
+-Elementos y materiales semiconductores.
+-Estructura atómica.
+-El transistor
+-Ley de Moore.
+-En que se mide las resistencias(ohmnios), etc...
+-Transistores formados por silicio
+-¿Si aumentas la resitencia disminuye el voltage?
+¿-Chips formados principlamente por transistores?
+-El sentido convencional de la corriente va desde: 
+
+ ----------
+|09/10/2023|
+ ----------
+-Compuertas de and y or.
+-Ejemplo de clase hecho en un folio que guardaré en la mochila.
+-Varios ejemplos practicando el and y or visualmente, ademas añadimos una mas que sería con la letra C.
+-Con el circulo pequeño se crea la negacion junto al triangulo que hacen la inversa.
+-Entramos en la pagina logic.ly.
+-Algebra booleana.
+
+ ----------
+|11/10/2023|
+ ----------
+-Trabajo para hacer subido al classroom sobre los trasnsistores sobre varias preguntas acerca del video que vimos el otro
+ dia en clase con el documental.
+
+-Arquitectura de von neumann.
+
+-Crear en presentaciones google la siguiente imagen de arquitectura Von Neumann.
+
+-Trabajo hecho y entregado en una presentacion de google.
+
+-Jerarquia de memoria del ordenador.
+
+-Conectores textuales de java(garveich conector(En teoria)).
+
+-Vimos cosas del lenguaje ensamblador.
+
+-Ciclo de vida instreuccion CPU
+
+-Que significa ISA.
+
+-Elementos de una estructura von neuman
+ ----------
+|16/10/2023|
+ ----------
+-Entregué el trabajo de los transisitores del classroom, pero hay que ver bien el video y quedarse con la información
+ para el futuro.
+
+-Si es posible editamos el trabajo para que quede mejor y si es posible hacerlo modo presentación.
+
+-Compiler explorer
+
+-Suma y resta de binarios
+
+-Como hacer multiplicaciones de binarios, y a mayores también vimos como sacar los binarios de numero decimales como
+ (0,75 o 0,2), hechos en el folio de la mochila de clase.
+
+ ----------
+|18/10/2023|
+ ----------
+-¿msd y lsd?(Most Significant Digit and Least Significant Digit).
+-Bit mas significativo(MSB).
+-Endianness.
+-Representacion de numeros con signo.
+-Complemento a 1. Ejemplo: 10 = 1010 , -10 = 10101, el negativo le damos la vuelta del positivo.
+-Complemento a 2. Ejemplo: 1001010
+			   c1: 10110101
+				     +1
+			   ------------
+			       10110110
+
+		   Ejemplo: 1011101
+			    c1: 10100010
+				      +1
+				--------
+				10100011
+-Float coverter pagina web.
+-Cisc y Risc.
+-x86 y x86 64.
+-Arquitectura ARM.
+
+ ----------
+|19/10/2023|
+ ----------
+-Rapid tables google.
+-Litte Big Endian Converter
+-Cuanto es el tamaño de una variable int
+
+ ----------
+|20/10/2023|
+ ----------
+-c++ tiene acceso a la memoria, por eso lo hemos usado para comorobar el ejemplo de los bits.
+
+- -9
+b: 1001
+c1:111 1 0110
+c2:111 1 0111
+
+ ----------
+|23/10/2023|
+ ----------
+-Vimos n video acerca de los bits, junto a la memoria RAM y demás y las puertas AND y OR, subirá el video al classroom.
+ Intentar ver el video de nuevo.
+
+-Hicimos una practica en logic.ly con dos interruptores.
+-Kahoot, abajo algunas soluciones.
+-A la ram se accede de manera aleatoria.
+-Multiplexor
+-Gated latched.
+-Lo almacenado en RAM se pierde(no se guarda) al apagar el ordenador. VERDADERO.
+-Para que sirve un gated latch
+-Cuantos bits hay en un digito hex(4).
+-La RAM está compuesta por diferentes matrices.
+-Tamaño mas comun de una variable int(32).
+-La RAM consta de direccion y datos.
+-Grupo de latches agrupado juntos de llaman(Registros).
+
+ ----------
+|27/10/2023|
+ ----------
+-Memoria caché.
+-Jerarquia de memoria.
+-Cisc y Risc.
+-Microprocesador.
+	*El intel 4004 fue el primer microprocesador dentro de un chip de uso general.
+-El bus de direcciones envia a: RAM.
+-La cache es mar rapida que los registros. falso.
+-Existen 3 niveles de memoria caché.
+-El nivel de caché compartida es la L3.
+-El bus de direcciones es:
+-La cache es mas rapida q la ram.
+
+ ----------
+|30/10/2023|
+ ----------
+-Arquitectura von neuman.
+-Buses de datos.
+-Arquitectura Harvard.
+-Núcleo (Core) vs CPU.
+l4  caché.
+-Multihilo (hyperthreading).
+-SIMD.
+-GPU.
+
+ ----------
+|01/11/2023|
+ ----------
+-El pdf de los apuntes ya está subido al calssroom.
+-FPU.
+-SoC (System on a Chip).
+-Placa Base y Periféricos(Motherboard).
+
+ ----------
+|03/11/2023|
+ ----------
+-Bios.
+-UEFI.
+-Practica de entrar en la bios del ordenador.
+
+ ----------
+|06/11/2023|
+ ----------
+-Vimos la practica de la bios en clase de cada uno de los compañeros.
+-Mas teoria de la BIOS y UEFI.
+-Procesador (CPU).	
+	*Frecuencia de reloj.
+	*Numeros de nucleos.
+	*Numero de hilos.
+	*Zocalo.
+	*Unidades funcionales.
+	*Consumo.
+-Otros:
+	*Disipador.
+	*Ventilador.
+	*Linea de Producto(Intel, AMD)
+
+
+-Registros dentro de la CPU. 
+-Vista de la CPU en el ordenador en el administrador de tareas.
+-Placa base.
+
+-Zocalo(Socket) vs encapsulado (PASTA).
+	*Lugar donde se instala el procesador.
+
+----------
+|08/11/2023|
+ ----------
+-Notas de la practica de la BIOS-UEFI.
+-Vimos como colocar la pasta termica.
+-Chipset.
+-Administrador de dispositivos.
+-Memoria principal.
+-DRAM vs RAM.
+-Latencia (CAS).
+-DDR4 - DDR5.
+-Mips.
+-ISA.
+
+----------
+|09/11/2023|
+ ----------
+-boot ROM.e
+-ROM de arranque.
+-Practica para poner las partes de una placa base.
+
+----------
+|13/11/2023|
+ ----------
+-Buses del ordenador(PCI, PCI Express).
+-Ranuras de expansion.
+-Conectores externos.
+-Canal TMDS.
+-thunderbolt.
+-Thunderbolt 5.
+-0x computer.
+
+ ----------
+|13/11/2023|
+ ----------
+-Conectores Internos.
+-Conector ATX.
+-Cuantos tipos de errores puede representar con esos leds.
+-Oscilador.
+-Oscilador electrónico.
+-Atmega328.
+-RCA o TOSLINK.
+-Practica de kahoots con conectores puertos y demás.
+
+ ----------
+|13/11/2023|
+ ----------
+-Pedro trajo una placa base para ver las partes y demás.
+-SPDIF, Tschuko.
+-En el examen entra el diagrama de von neuman.
+-Aleatorio, cabezal(RPM), magnetico (Del disco duro).
+-Tipo nanz
+
+ ----------
+|20/11/2023|
+ ----------
+-Diferencias entre Nas y San.
+-Raid.
+-Raid 0,1,5,6,10.
+-Pregunta examen, la cpu y la tarjeta grafica no son lo mismo.
+-Interface de sonido.
+
+ ----------
+|22/11/2023|
+ ----------
+-Raspberry pi.
+-Tipos de cajas de ordenador.
+-Kahoot de discos y demás.	
+-Video de operating systems: Crash course computer Science.
+-Empezamos con el tema 3 donde se hablará de los sitemas operativos.
+-(Hardware, firmware, sistema operativo, aplicacion, usuario).
+-Estructura y componentes (kernel. shell, sistema de archivos, controladores de dispositivos (drivers)).
+-(Windowa + r).
+-En el cmd poniendo "tree" nos muestra todo el contenido por carpetas.
+
+ ----------
+|23/11/2023|
+ ----------
+-Unidad flash usb sistema de archivos.
+-ntfs.
+
+-Administracion de tareas.
+	*Monotarea.
+	*Multitarea.	
+-Administracion de usuario.
+	*Monousuario.
+	*Multiusuario.
+-Manejo de recursos
+	*Centralizado.
+	*Descentralizado.
+-Estructura interna.
+	*Monolitico.
+	*Cliente-servidor.
+	*Jerarquico.
+
+ ----------
+|24/11/2023|
+ ----------
+-Trabajo conjunto por grupos para presentar.
+
+ ----------
+|24/11/2023|
+ ----------
+-Continuamos con el trabajo de clase.
+-Hanlar sonre las distribuciones y demás.
+-Terminar trabajo en casa.
+ ----------
+|29/11/2023|
+ ----------
+-Entrega del trabajo por grupos de Sistemas Operativos.
+-MIDI MESSAGE.
+
+ ----------
+|01/12/2023|
+ ----------
+-Presentacion del resto de grupos de clase.
+
+ ----------
+|04/12/2023|
+ ----------
+-Terminaremos el tema 3 sobre los Sistemas Operativos.
+-ODOS.
+-OEM.
+-Ethernet / RJ45.
+-Mac address(Identificador único de 48 bits).
+-ipconfig/all.
+-Fedora no es una distribucion empresarial de Linux.
+-Interfaz entre el nucleo del sistema operativo y el usuario: SHELL.
+

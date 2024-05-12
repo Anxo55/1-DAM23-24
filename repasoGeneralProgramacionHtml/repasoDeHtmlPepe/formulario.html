@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- <form action="">
+        <ul>
+
+            <li>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="user_mame">
+            </li>
+
+            <li>
+                <label for="lastname">Apellido</label>
+                <input type="text" name="lastname" id="user_lastname">
+            </li>
+
+            <li>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="user_password">
+            </li>
+
+        </ul>
+    </form> -->
+
+    <div>
+
+        <marquee behavior="" direction=""><h1>Hola Mundo</h1></marquee>
+
+        <form action="/action" method="post">
+
+            <label for="name">Nombre:</label>
+            <input type="text" name="nombre" id="user_nombre">
+            <br><br>
+            <label for="lastname">Apellido:</label>
+            <input type="text" name="lastname" id="user_lastname" size="50">
+            <br><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="password" id="user_password">
+            <br><br>
+            <textarea name="texto" id="user_texto" cols="30" rows="10"></textarea>
+            <br><br>
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="sexo" id="user_hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="sexo" id="user_mujer">
+            <!-- Poner la misma etiqueta de radio y name para cambiar entre 1 y el otro -->
+            <br><br>
+            Fichero adjunto
+            <input type="file" name="adjunto" id="">
+            <br><br>
+            <!-- <input type="hidden" name="" id=""> -->
+            <button type="button">Enviar</button> <input type="checkbox" name="checkbox" id="user_checkbox">
+            <!-- Checkbox para marcar en una casilla. -->
+            <!-- <input type="submit" name="Guardar cambios" id="Guardar cambios"> -->
+            <input type="submit" value="Guardar cambios"><br><br>
+
+
+
+            
+            <label for="so3">Sistema operativo</label>
+            <select name="so3" id="so3" multiple="multiple">
+                <option value="windows" selected="selected">Windows</option>
+                <option value="mac">Mac</option>
+                <option value="Android">Android</option>
+            </select>
+            <br><br>
+            <input type="color" id="favcolor" name="favcolor">
+            <input type="date" name="birthday" id="birthday"><br><br>
+            <input type="tel" name="phone" id="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br><br>
+            <input type="week" name="week" id="week">
+
+            <fieldset></fieldset>
+            <!-- con la etiqueta de arriba separas los formularios como prefieras, con algunos datos como nombre, apellido, etc -->
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

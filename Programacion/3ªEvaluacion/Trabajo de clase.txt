@@ -1,0 +1,113 @@
+ ----------
+|20/03/2024|
+ ----------
+-Clase Cuenta.
+
+ ----------
+|02/04/2024|
+ ----------
+
+ ----------
+|03/04/2024|
+ ----------
+-Ejercicio propuesto.
+-El ejercicio se basa en la clase libro, donde tenemos dos clase heredadas y una subheredada.
+
+ ----------
+|04/04/2024|
+ ----------
+
+ ----------
+|08/04/2024|
+ ----------
+-Haciendo los ejercicios de herencia del segundo paquete de propuestos.
+-Acabando el test donde hay que hacer el metodo de generaArea donde en algunas clase tenemos el valor del Area.
+
+ ----------
+|09/04/2024|
+ ----------
+-Paquete de la clase TiendaMascotas.
+
+ ----------
+|10/04/2024|
+ ----------
+-Metodo de pagosImpuestosMunicipales.
+
+ ----------
+|11/04/2024|
+ ----------
+-Paquete nuevo que le llamamos Seleccion.
+
+ ----------
+|15/04/2024|
+ ----------
+-Acabanos el paquete de seleccion.
+-Ahora creamos el segundo paquete llamada seleccion2.
+-Acabar el testeo del paquete de Seleccion2.
+-Paquete de Universidad.
+
+ ----------
+|16/04/2024|
+ ----------
+-Entregado el testDeLaUniversidad con sus metodos y con el metodo de calcularMedia.
+-Cuando suba el sisguiente hacerlo para entregar.
+
+ ----------
+|17/04/2024|
+ ----------
+-Correccion del paquete de Animales.
+-Creamos el paquete de Aritmetica.
+
+ ----------
+|18/04/2024|
+ ----------
+-Correccion del paquete de Aritmetia.
+-Volver a ver el paquete para repetirlo, pero no se puede hacer de forma abstracta.
+-Paquete de ciclistas.
+-Ver los ciclos que subió de la clase ciclista y ponerme a hacer las herencias.
+-Revisar también el paquete del año anterior ya que pepe preguntó por el.
+
+ ----------
+|22/04/2024|
+ ----------
+-Subida las clases del paquete de ciclistas.
+-En la nueva entrega tenemos que subir el test que le conviene al paquete de ciclistas.
+
+ ----------
+|24/04/2024|
+ ----------
+-Crear la clase carrera para subir en el classroom.
+-Tenemos que hacer el test bien para subirlo.
+-Pedir las clases del paquete para tenerlo y ver como funciona la herencia en cada clase.
+
+ ----------
+|25/04/2024|
+ ----------
+-Seguramente entre en el examen el paquete de clase Ciclista, hay que pedir las clases completas para tenerlo.
+-Vemos un ejercicio Propuesto.
+-Creamos el paquete Medicina.
+
+ ----------
+|29/04/2024|
+ ----------
+-Practica de interfaz.
+
+ ----------
+|02/05/2024|
+ ----------
+-Haciendo la practica de Interfaz Multiple.
+
+ ----------
+|03/05/2024|
+ ----------
+-Entregadas las practicas de la interfaz y tambien el de los deportes de los partidos de futbol y baloncesto.
+-Hacer el paquete de peaje.
+
+ ----------
+|10/05/2024|
+ ----------
+-Ponerse al dia con los ejercicios de los paquetes.
+-Cambiar el paquete de ciclistas por si entra en el examen.
+-Revisar los que no están entregados y hacer los ultimos subidos.
+
+

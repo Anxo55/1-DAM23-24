@@ -1,0 +1,14 @@
+div{
+    font-size: 3em;
+    margin: auto;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+tr, td{
+    border: 1px solid black;
+}

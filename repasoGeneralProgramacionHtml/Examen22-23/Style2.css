@@ -1,0 +1,23 @@
+html {
+    background-color: salmon;
+}
+
+h1 {
+    color: white;
+    background-color: orangered;
+}
+
+.container {
+    background-color: white;
+    overflow: hidden; /* Clear the float */
+    min-height: 400px; /* Set a minimum height */
+}
+
+img {
+    float: right;
+    margin: 10px 0 10px 10px; /* Add some margin for spacing */
+}
+
+.container p {
+    margin: 20px 10px; /* Add some margin for spacing */
+}

@@ -1,0 +1,25 @@
+table {
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: 3em;
+}
+
+div {
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+
+tr,td {
+    border: 1px solid black;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.amarillo {
+    background-color: yellow;
+}

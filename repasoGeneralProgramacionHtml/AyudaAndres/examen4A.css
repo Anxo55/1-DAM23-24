@@ -1,0 +1,29 @@
+div {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+table {
+    border: 2px solid black;
+    margin: auto;
+}
+
+
+td {
+    text-align: center;
+    border: 2px solid burlywood;
+    font-size: 3em;
+}
+
+#yellow {
+    background-color: yellow;
+
+}
+
+#white {
+    background-color: white;
+}
+
+#orange {
+    background-color: orange;
+}

@@ -1,0 +1,117 @@
+ ----------
+|03/04/2024|
+ ----------
+-Tarea IPS 1º DAM.
+-ipscan dscargado.
+
+ ----------
+|04/04/2024|
+ ----------
+-Descargar VNC server.
+-Descargar TightVNC.
+
+ ----------
+|05/04/2024|
+ ----------
+-Descargar mRemoteNG.
+
+ ----------
+|08/04/2024|
+ ----------
+-Tarea de Acceso Remoto.
+-Practica entregada, pero al tener windows home no me puedo conectar desde escritorio remoto.
+-Para poder conectarte necesitas tener una version de windows 10 pro.
+
+ ----------
+|10/04/2024|
+ ----------
+-Descargamos ubuntu del enlace que nos proporciona en el classroom.
+
+ ----------
+|11/04/2024|
+ ----------
+-Trabajo conjunto T7.2 Compartir carpeta en red.
+-Entrega hecha del trabajo adjuntando las capturas.
+
+ ----------
+|15/04/2024|
+ ----------
+-En el Trabajo conjunto se añaden 2 partes mas a mayores.
+-Terminar el trabajo T7.2 Compartir carpeta en red.
+
+ ----------
+|17/04/2024|
+ ----------
+-Vamos a empezar a usar Ubuntu.
+-Subidas las respuestas de meta.
+-Subida la unida 8 de linux-ubuntu.
+-wsl --install.
+-Comando wsl -l -v.
+
+UBUNTU:
+-Comando pwd.
+-El comando cd .. es para bajar de carpeta en la ruta que estés.
+-Comando tree
+-Comando ls.
+-Comando man man.
+-Comando whatis ls.
+-Comando whatis mkdir.
+
+ ----------
+|18/04/2024|
+ ----------
+-Instalar Ubuntu en la máquina virtual.
+-Va a entrar parte practica en el examen de Ubuntu.
+-Repasar comandos de ubuntu y la teoria.
+
+ ----------
+|24/04/2024|
+ ----------
+-Varios comandos de Ubuntu.
+-nano p1.
+-ls -l.
+-control + c.
+
+ ----------
+|25/04/2024|
+ ----------
+-Ver los comandos de ubuntu.
+-Mirar los apuntes del tema 8.
+
+ ----------
+|26/04/2024|
+ ----------
+-Nueva tarea 8.1
+-Sobre los comandos de Ubuntu.
+-Algun comando: touch p1 && cat p
+-rm p1.
+-ls p1 && ls p4 && echo "existen ambos"
+-ls p1 || ls p4 && echo "existen ambos"
+-touch p12 p13 p14 pt1 pt2 pt3.
+-ls p?.
+-rm p.
+-which rm.
+-whereis ls.
+-En el tema de Ubuntu vamos en el apartado de Comodines.
+
+ ----------
+|29/04/2024|
+ ----------
+-Trabajo practico de comandos de Ubuntu.
+-T8.1 Shell #1.
+
+ ----------
+|02/05/2024|
+ ----------
+-Terminar y entregar el trabajo anterior y ponerse con el anterior.
+-Trabajo para entregar el T8.2.
+-Terminado el trabajo T8.1 Shell  #1.
+
+ ----------
+|10/05/2024|
+ ----------
+-Trabajos entregados, menos el del tema 8.2.
+-Subido un nuevo trabajo que se llama tema 8.3 Grep+pipers+tr.
+
+
+

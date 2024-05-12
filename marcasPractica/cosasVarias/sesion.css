@@ -1,0 +1,20 @@
+.contenedor-con-imagen-de-fondo {
+    background-image: url(imagenes/lenguajesProgramacion.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    /* Aplica un filtro de desenfoque */
+    backdrop-filter: blur(5px); /* Ajusta el valor de blur según lo desees */
+  }
+
+  h1 {
+    color: blue;
+  }
+
+  .container {
+    border: 1px solid black;
+    align-items: center;
+  }

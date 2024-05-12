@@ -1,0 +1,14 @@
+-joseluisgs en github
+
+-Mirar en un futuro con tiempo como hacer clases en java con el metodo swing, con el JOptionFrame
+
+-Ver React y Angular.
+
+-Saber diferencias entre react y angular.
+
+-Frontend: Html, css, javaScripy, vue, react, angular
+-Backend:php, ruby, python, c++, java
+
+-Practicar mas sobre los formularios de php y ponerme al dia con todo y seguir con html para no dejarlo sin practicar.
+
+-AprenderAprogramar.com

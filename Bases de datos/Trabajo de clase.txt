@@ -1,0 +1,348 @@
+ ------------
+|#13/09/2023#|
+ ------------
+Classroom 2023
+Más teoria para comenzar
+
+ ------------
+|#14/09/2023#|
+ ------------
+Repaso de ficheros y tipo de ficheros de texto, también pasar de decimales a binario, y de binario a decimales.
+Tema de el sistema operativo y informacion sobre los discos duros y como fueron evoolucionando durante los años.
+
+Ejercicios de pasar de binario a decimal, de decimal a binario en el classroom.
+
+ ------------
+|#18/09/2023#|
+ ------------
+-Apartado 2.0 acerca de la base de datos, la terminologia(dato, tipo de dato, registro, campo clave, tabla, consulta, indice,
+vista, informe, guiones o scripts, Procedimientos)
+
+-Pdf de presentacion de modelo entidad relacion
+
+ ------------
+|#19/09/2023#|
+ ------------
+-Modelo entidad-relación.
+-Practicas de modelo entidad-relacion
+-Usamos el programa DIA
+-Ejercicios del modelo entidad relacion, hecho hasta el 4 por el momento, los 3 primeros entendidos.
+-Revisar el ejercicio 4 y preguntar si es necesario a ChatGPT para solucion.
+
+ ------------
+|#20/09/2023#|
+ ------------
+termine el ejercicio 6 del primer word de ejercicios, despues hacer el segundo que ya está subido al classroom
+
+ ------------
+|#21/09/2023#|
+ ------------
+-Correccion del primer boeltin de ejercicios de E/R
+-Corregimos el tercer ejercicio y el ejercicio cuatro
+-Despues hice los dos ultimos que mando en el pdf siguiente, donde tengo que corregir el primero por las entidades,
+que no muestra pero nos toca intuir para crearla y añadirla a labase de datos.
+-Terminar la practica 7 y la 8.
+-
+
+ ------------
+|#25/09/2023#|
+ ------------
+INTERPRETACIÓN DEL DISEÑO CONCEPTUAL DEL MODELO ENTIDAD/RELACIÓN
+-Todo sobre teoria, tambien seguimos con los ejercicios y demás
+-tipos de atributo, de relaciones y demas.
+
+ ------------
+|#26/09/2023#|
+ ------------
+-Empezamos con los tipos de cardinalidades,(uno a uno, uno a muchos, etc...).
+-EN un ejemplo de tabla de persona y coches, si la cardinalidad es de (1:n) el idPersona de la tabla persona,
+lo incluimos en la tabla de coches.
+
+-En el mismo ejemplo, si la cardinalidad es de n:m creamos una tabla nueva donde creamos el idPersona y el idCoche en una
+tabla distinta al ser de n:m.
+
+-Relaciones reflexivos(relacionadas por si mismo, como un delegado esta relacionado con alumno, ya que el delegado es 
+un alumno).
+
+-Entidades fuertes y debiles, para que existan las debiles dependen de las entidades 
+
+------------
+|#28/09/2023#|
+ ------------
+-Teoria acerca de las relaciones n-arias, donde encontramos varias entidades dentro de la relacion.
+-Modelo E/R extendido.
+	
+	*Exclusiva (sin solapamiento): una ocurrencia de la entidad superconjunto es una ocurrencia 
+	de una y sólo una entidad subconjunto. (Jerarquía generalización). Se representa 
+	gráficamente con un arco que une todas las líneas que salen de la relación es_un. Ejemplo Los 
+	números, un número si es positivo no puede ser ni negativo ni cero, sólo pertenece a una 
+	subentidad.
+
+	*Inclusiva (con solapamiento): una ocurrencia de la entidad superconjunto puede ser una 
+	ocurrencia de varias entidades subconjunto a la vez (Jerarquía subconjunto). Se representa 
+	gráficamente sin poner el arco. Empresa según su propiedad puede ser Pública o Privada, pero 
+	hay empresas mixtas.
+
+	POR OTRA PARTE.
+
+	*Total (obligatoria): una ocurrencia de la entidad superconjunto obligatoriamente debe ser una 
+	ocurrencia de alguna entidad subconjunto. Se representa gráficamente con un círculo que se 
+	coloca sobre la relación es_un. Los números, un número es siempre o positivo o negativo o 
+	nulo. (Cuando en la entidad tenemos las entidades de niño, adolescente y así es total, ya que
+	pasas por cada etapa)
+
+	*Parcial (opcional): una ocurrencia de la entidad superconjunto puede no ser una ocurrencia 
+	de ninguna entidad subconjunto. Se representa gráficamente sin el círculo. (En este caso si tenemos la entidad
+	mascota y tenemos las subentidades de perro, gato, etc, sería parcial por que solo puede ser una de las dos).
+ ----------
+|02/10/2023|
+ ----------
+-Empezamos con ejercicios de la UD2, donde cuelga 5 pdfs para practicar
+
+-Antonio nos enseña la pagina web app.diagrams.net, para hacer diagramas
+
+ ----------
+|03/10/2023|
+ ----------
+-Correccion de los ejercicios, segun los vamos corrigiendo los irá subiendo al classroom.
+-Intentar terminar los ejercicios que no corrija y repasasrlos de nuevo.
+
+ ----------
+|04/10/2023|
+ ----------
+-Seguimos haciendo los ejercicios que mando, estaba acabando el ejercicio final del 4 pdf, y me falta poner la cardinalidad 
+ y poder continuar con dos mas que faltan y empezar el ultimo pdf
+
+ ----------
+|05/10/2023|
+ ----------
+-Despues de estar haciendo los ejercicios nos pusimos a corregir, en principio se terminó bien, pero habrá fallos.
+-Volver a repetir los ejercicios, y revisar los del pdf 5, donde empezamos con las entidades grandes, donde metemos
+otras entidades que declaran otras y creamos lo que podrian ser atributos en entidades para declrarlo y que cuente.
+-En este caso en el primer ejercicio del pdf 5.
+
+-Primero corregimos el pdf 1 de las cuentas bancarias que es diferente al del pdf4.
+-Corregimos el otro ejercicio de cuentas bancarias, en este es donde si está incluida la entidad transaccion.
+-Seguimos con lo ejercicios del ultimo pdf, los seguiremos haciendo para terminarlos para la proxima semana.
+ ----------
+|09/10/2023|
+ ----------
+-Correccion del ejercicio de la DGT del pdf 4, revisar el enunciado y ver la practica, ya que se hicieron varios cambios
+respecto al principal.
+
+-Practica igualmente subida al classroom de todas las practicas, quitando el ultimo que lo estamos terminando.
+
+-Por ultimo nos pusimos a corregir las cardinaledades ternarias del pdf 4(repasarlas y buscar mas ejemplos del estilo).
+
+-Las relaciones ternaris se hacen diferente a las que solemos hacer entre la relacion de dos entidades unicamente.
+
+ ----------
+|10/10/2023|
+ ----------
+-Nos pusimos a revisar otra vez las cardinalidades de las relaciones ternarias, del pdf 4 ya que ayer no se entendieron
+ del todo bien y era necesario, todo subido al github para revisar, en casa como siempre, volver a practicar como bien 
+ dije las practicas que estuvo mandando ya que serán necesarias para el respaso.
+
+ ----------
+|11/10/2023|
+ ----------
+-En vez de continuar con BBDD y las practicas nos pusimos con entornos y seguir dando ejemplo de POO.
+-Nos pusimos a hacer practicas de un constructor de coche con atributos y creando los metodos getters y setters,
+ para despues mostrarlo en la clase Principal la cual nos servira como test para mostrar los coches creados.
+
+ ----------
+|16/10/2023|
+ ----------
+-Empezamos con la UD3.
+-Modelo de Datos.
+-Toda la teoria del pdf de la UD3 hasta la pagina 4 más o menos, revisar en casa y volver a leer la teoria de nuevo.
+-Seguir con los ejercicios del pdf5 de la unidad anterior.
+-Tras seguir con el segundo ejercicio del pdf 5, hay que terminar el ejercicio para terminar la practica,
+ faltando poner las cardinalidades en cada una de las relaciones de cada ejercicio.
+
+ ----------
+|17/10/2023|
+ ----------
+-MODELO RELACIONAL. TERMINOLOGÍA Y ESTRUCTURA.
+-SGBD: Sistemas Gestores de Bases de Datos
+-CJ Date
+-Nos subio un pdf para bases de datos, y tambien algunos de programacion con ejercicios hechos.
+-Disco duro de roer para ver java.
+-Nos comparte un canal de telegram de programadores
+-Segui con el ejercicio del otro dia de entidad/relacion, mirarlo en casa por ver si falta alguna entidad para relacionar
+ ya que no encontré ninguna.
+
+ ----------
+|18/10/2023|
+ ----------
+-Restricciones inherentes y semanticas.
+-(NOT NULL, UNIQUE)
+-Ejemplos de los tipos de restricciones.
+
+ ----------
+|19/10/2023|
+ ----------
+-Estuvimos haciendo kahoots del modelo relacional
+-Mas repaso de la interpretacion del diseño logico, metodo cascada, insert, not null.
+
+ ----------
+|23/10/2023|
+ ----------
+-Hasta no ver sql no veremos las restricciones de rechazo, de la UD3.
+-Nuevo documento de teoria de transformacion entidad/relacion al modelo relacional.
+-Ahora con las practicas que hicimos anteriormente, crearemos las tablas con las practicas de los ejercicios propuestos
+ de la UD2
+-Terminamos la primera practica y empecé con la segunda, terminar las practicas en casa.
+
+ ----------
+|24/10/2023|
+ ----------
+-Continuar con las practicas del modelor relacional.
+-Cada vez que creamos una tabla, cuando en la cardinalidad tenemos 1:n, la entidad que represente el mucho(n), pondrá
+ su clave primaria en la otra tabla a crear.
+
+-Antonio nos crea un classroom nuevo con todo libros con las asignaturas que vamos a ver con el.
+
+ ----------
+|30/10/2023|
+ ----------
+-Correccion de los ejercicios de paso a tabla.
+-Nos mandó hacer del paso del modelo entidad relacion al modelo realacional con el ejercicio 11 del tercer PDF.
+-Hacer ejercicios de entidad relacion de repaso y ver la teoria de repaso.
+
+ ----------
+|31/10/2023|
+ ----------
+-Normalizacion de las relaciones.
+	* Anomalias de inserccion.
+	* Anomalias de modificacion.
+	* Anomalias de borrado.
+-Normalizacion de los Modelos Relacionales.
+-Relaciones 1FN, 2FN, 3FN, FNBC, 4FN, 5FN (Forma Normal).
+-Revisar los ejemplos para hacer la practica.
+
+ ----------
+|01/11/2023|
+ ----------
+-Volvemos a ver la normalización(1FN).
+-Sube un pdf con ejemplos y practica para hacer para repasar.
+-Hay que hacer los primeros que mandó y preguntar dudas.
+
+ ----------
+|06/11/2023|
+ ----------
+-Vista de nuevo del FN, donde hacemos una practica para verlo mejpr y practicarlo.
+-Despues nos pone ha hacer mas practica por nuestra cuenta con los ejercicios de los pdf.
+-Terminar las practicas del primer pdf para darle con los del segundo pdf.
+
+ ----------
+|07/11/2023|
+ ----------
+-Creo un nuevo espacio donde sube resumenes de lo que vamos dando.
+-Del segundo pdf practica 5 y 7.
+-Subidas las dos practicas por Antonio.
+-Hacer las practicas 8 y 9.
+-Terminar las practicas en casa.
+
+ ----------
+|08/11/2023|
+ ----------
+-Seguimos con las practicas de FN del segundo boletin, hacer.
+-Terminado el ejercicio 8 del segundo pdf, donde ya con un metodo hicimos hasta la 3FN.
+-Ahora con la practica 9 del segundo pdf, hacer todas las formas normales lo mas reducidas posibles.
+
+ ----------
+|09/11/2023|
+ ----------
+-Correccion del ejercicio 8 del segundo pdf.
+-Terminada la practica 9, seguir con las dos ultimas.
+-Empezando la practica 10 del segundo pdf.
+-Terminada la practica 10.
+
+ ----------
+|13/11/2023|
+ ----------
+-Revisar ejercicio 11 del  boletin, hacer las preguntas de abajo para practicar tambien.
+-Correccion del primer boletin de ejercicios de FN.
+
+ ----------
+|14/11/2023|
+ ----------
+-Correccion de los ejercicios de FN.
+-Terminar la practica 11 del segundo boletin de FN.
+-Subidas las correcciones de el segundo pdf.
+-Boletin 3 de FN.
+
+ ----------
+|15/11/2023|
+ ----------
+-Continuar con el ultimo pdf de Normalizacion.
+
+ ----------
+|20/11/2023|
+ ----------
+-Seguir con el ultimo pdf y con el ejercicio2 del boletin.
+-Repasar todos los ejercicios en general de cara al examen.
+
+ ----------
+|21/11/2023|
+ ----------
+-Correcion del boletin 3 de formalizacion.
+
+ ----------
+|23/11/2023|
+ ----------
+-Empezamos con MySql.
+-Importamos northwind en el phpMyAdmin.
+
+ ----------
+|27/11/2023|
+ ----------
+-MySql.
+-Sentencias que están formadas por cláusulas.
+-SELECT campo/s.
+ FROM tabla/s.
+ WHERE condicion/es.
+-Probando alguna consulta.
+-Primera practica donde sacamos los precios de los productos de forma ascendente.
+
+ ----------
+|28/11/2023|
+ ----------
+-CRUD.
+-Clausula DISTINC la que elimina los registros iguales. Unicamente cuando se utiliza una única informacion.
+-ALL(Valor predeterminado).
+-Usando la cluasula AS para ponerle un nombre al atributo de la tabla como al Unitprice AS 'Precio Unitario', y te mostrará
+con el nombre de Precio Unitario.
+
+ ----------
+|29/11/2023|
+ ----------
+-Practicas de MySql, subido al classroom(Practica2).
+
+ ----------
+|30/11/2023|
+ ----------
+-1 2 3 9 10 11 14 16 17(Mas ejercicios).
+-Primer boletin hecho de MySql en la practica2.
+
+ ----------
+|04/12/2023|
+ ----------
+-Terminar las practicas de MySql.
+-Terminadas las practicas del segundo boletin de MySql, también podemos hacer las que no mandó para repasar.
+-Repetir todas las practicas a futuro.
+-Funcion date diff.
+-La funcion round es para redondear los valores decimales.
+-Creo la practica(Practica4) donde vemos varias funciones de MySql.
+
+ ----------
+|05/12/2023|
+ ----------
+-Vamos a usar la BD de EmpresasABC.
+-En la funcion round pides los decimales que quieres sacar por la consola.
+-Tambien podemos usar la funcion truncate que redondea también.
+-Formular desviacion tipica, usando la funcion (STDDEV) mostramos la desviación típica.
+-Con la funcion sqrt sacamos la raiz cuadrado de X numero.
+-La función Pow, eleva una base a un exponente: Ejemplo: POW(5,2).
+
