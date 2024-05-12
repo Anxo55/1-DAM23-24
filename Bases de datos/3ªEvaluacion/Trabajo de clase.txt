@@ -107,4 +107,9 @@
 -Corrigió mas ejercicios, y mando seguir con ellos.
 -Terminarlos para la semana que viene.
 
+ ----------
+|12/05/2024|
+ ----------
+-Hechas algunas practicas de sql de funciones y procedimientos.
+-Hay que ver videos y los ejercicios de la practica para repasar y saber hacerlos sin usar IA.
 
