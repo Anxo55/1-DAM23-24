@@ -113,7 +113,9 @@
  ----------
 |13/05/2024|
  ----------
--Paquete testea cuerpo: Luis
--Paquete biblioteca: Luis
+-Paquete testea cuerpo: Entregado
+-Paquete biblioteca: Entregado
+-Hacer el paquete de Composición(Circulo y punto).
+-Hacer paquete de composición multiple.
 
 
