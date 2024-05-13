@@ -117,5 +117,6 @@
 -Paquete biblioteca: Entregado
 -Hacer el paquete de Composición(Circulo y punto).
 -Hacer paquete de composición multiple.
+-El paquete de Carro entregado, falta por hacer el de Composición.
 
 
