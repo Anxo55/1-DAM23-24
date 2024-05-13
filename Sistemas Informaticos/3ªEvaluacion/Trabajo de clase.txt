@@ -113,5 +113,12 @@ UBUNTU:
 -Trabajos entregados, menos el del tema 8.2.
 -Subido un nuevo trabajo que se llama tema 8.3 Grep+pipers+tr.
 
+ ----------
+|13/05/2024|
+ ----------
+-Toca hacer el trabajo de compartir carpeta de windows con ubuntu.
+-Despues de hacer este trabajo hacer el ultimo que se subio de grep.
+-Trabajo de la carpeta compartida entregado.
+-Falta el ultimo trabajo por entregar.
 
 

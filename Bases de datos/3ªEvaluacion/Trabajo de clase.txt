@@ -113,3 +113,9 @@
 -Hechas algunas practicas de sql de funciones y procedimientos.
 -Hay que ver videos y los ejercicios de la practica para repasar y saber hacerlos sin usar IA.
 
+ ----------
+|13/05/2024|
+ ----------
+-Seguir con los ejercicios que se mandaron de procedimientos y funciones.
+-Insistir con ver videos para practicar y volver a hacer los ejercicios de repaso.
+
