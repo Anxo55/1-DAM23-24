@@ -2,25 +2,48 @@ package CarreraCiclista;
 
 public class Contrarrelojista extends Ciclista{
 	
-	private double velocidadMaxima;
-	
+	private double velocidadMaxima; // en km/h
 
-	public Contrarrelojista(int identificador, String nombre, double velocidadMax) {
+	public Contrarrelojista(int identificador, String nombre, double velocidadMaxima) {
 		super(identificador, nombre);
-		// TODO Auto-generated constructor stub
-		this.velocidadMaxima = velocidadMax;
+		this.velocidadMaxima = velocidadMaxima;
 	}
 
+	public double getVelocidadMaxima() {
+		return velocidadMaxima;
+	}
+
+	public void setVelocidadMaxima(double velocidadMaxima) {
+		this.velocidadMaxima = velocidadMaxima;
+	}
+
+	/**
+	 * Método muestra en pantalla la clase a la que pertenece el objeto.
+	 * 
+	 * @return El tipo de la clase.
+	 */
+	@Override
+	public String imprimirTipo() {
+		String tipo = "Es un " + this.getClass().getSimpleName();
+		return tipo;
+	}
 
 	@Override
-	String imprimirTipo() {
-		// TODO Auto-generated method stub
-		return "Es un contrarrelojista";
-	}
-	
-	protected void imprimir() {
+	public void imprimir() {
 		super.imprimir();
-		System.out.println("Velocidad Maxima" + velocidadMaxima);
+		System.out.println("Velocidad máxima = " + velocidadMaxima);
 	}
 
-}
+	@Override
+	protected void calculaTiempoParcial() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'calculaTiempoParcial'");
+	}
+
+	@Override
+	protected void acumulaTiempoTotal() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'acumulaTiempoTotal'");
+	}
+
+} // clase

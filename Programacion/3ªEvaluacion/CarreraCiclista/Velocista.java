@@ -2,52 +2,58 @@ package CarreraCiclista;
 
 public class Velocista extends Ciclista{
 	
-	private double potenciaPromedio;
-	private double velocidadPromedio;
+	private double potenciaPromedio; // en vatios
+	private double velocidadPromedio; // en km/h
 
-	
+	public Velocista(int identificador, String nombre, double potenciaPromedio, double velocidadPromedio) {
+		super(identificador, nombre);
+		this.potenciaPromedio = potenciaPromedio;
+		this.velocidadPromedio = velocidadPromedio;
+	}
+
 	public double getPotenciaPromedio() {
 		return potenciaPromedio;
 	}
-
-
 
 	public void setPotenciaPromedio(double potenciaPromedio) {
 		this.potenciaPromedio = potenciaPromedio;
 	}
 
-
-
 	public double getVelocidadPromedio() {
 		return velocidadPromedio;
 	}
-
-
 
 	public void setVelocidadPromedio(double velocidadPromedio) {
 		this.velocidadPromedio = velocidadPromedio;
 	}
 
-
-
-	public Velocista(int identificador, String nombre, double potencia, double velocidad) {
-		super(identificador, nombre);
-		// TODO Auto-generated constructor stub
-		this.potenciaPromedio = potencia;
-		this.velocidadPromedio = velocidad;
+	/**
+	 * Método muestra en pantalla la clase a la que pertenece el objeto.
+	 * @return El tipo de la clase.
+	 */
+	@Override
+	public String imprimirTipo() {
+		String tipo = "Es un " + this.getClass().getSimpleName();
+		return tipo;
 	}
-
-	
 
 	@Override
-	String imprimirTipo() {
-		// TODO Auto-generated method stub
-		return "Es un velocista";
-	}
-	
 	public void imprimir() {
 		super.imprimir();
-		System.out.println("Potenca Promedio = "+ potenciaPromedio);
-		System.out.println("Velocidad Promedio = "+ velocidadPromedio);
+		System.out.println("Potencia promedio = " + potenciaPromedio);
+		System.out.println("Velocidad promedio = " + velocidadPromedio);
 	}
-}
+
+	@Override
+	protected void calculaTiempoParcial() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'calculaTiempoParcial'");
+	}
+
+	@Override
+	protected void acumulaTiempoTotal() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'acumulaTiempoTotal'");
+	}
+
+} // clase

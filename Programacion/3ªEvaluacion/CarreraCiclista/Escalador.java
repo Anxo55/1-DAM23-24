@@ -36,4 +36,16 @@ public class Escalador extends Ciclista{
 	public void setGradoRampa(double gradoRampa) {
 		this.gradoRampa = gradoRampa;
 	}
+
+	@Override
+	protected void calculaTiempoParcial() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'calculaTiempoParcial'");
+	}
+
+	@Override
+	protected void acumulaTiempoTotal() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'acumulaTiempoTotal'");
+	}
 }

@@ -79,4 +79,10 @@ public abstract class Ciclista {
 		System.out.println("Tiempo Acumulado = " + tiempoAcumulado);
 		System.out.println("Posicion = "+ posicionGeneral);
 	}
+
+
+    protected abstract void calculaTiempoParcial();
+
+
+    protected abstract void acumulaTiempoTotal();
 }

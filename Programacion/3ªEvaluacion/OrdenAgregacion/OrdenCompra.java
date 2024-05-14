@@ -43,6 +43,11 @@ public class OrdenCompra {
         return total;
     }
 
+    @Override
+    public String toString() {
+        return "OrdenCompra [identificador=" + identificador + ", lineasPedido=" + lineasPedido + "]";
+    }
+
     
     
 }

@@ -99,4 +99,9 @@ public class Equipo {
 		System.out.println("Pais = " + pais);
 		System.out.println("Total tiempo del equipo = " + totalTiempo);
 	}
+
+    public void setPosicion(int nextIndex) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setPosicion'");
+    }
 }
