@@ -119,4 +119,8 @@
 -Hacer paquete de composición multiple.
 -El paquete de Carro entregado, falta por hacer el de Composición.
 
+ ----------
+|14/05/2024|
+ ----------
+-Creo el paquete de OrdenAgregacion.
 
