@@ -12,7 +12,7 @@ CALL mostrar_numeros();
 SELECT factorial_de_un_numero(5) AS "Resultado";
 
 #5 Diseña un procedimiento almacenado que genere una tabla con los primeros 10 números pares.
-
+CALL primeros_numeros_pares();
 
 #6 Utiliza un bucle para mostrar los números impares del 1 al 20.
 
