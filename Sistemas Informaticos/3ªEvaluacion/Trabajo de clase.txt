@@ -121,4 +121,9 @@ UBUNTU:
 -Trabajo de la carpeta compartida entregado.
 -Falta el ultimo trabajo por entregar.
 
+ ----------
+|16/05/2024|
+ ----------
+-Ver el trabajo que me falta por entregar.
+-Ver rutas absolutas y relativas.
 

@@ -132,3 +132,10 @@
 -Terminado y entregado el paquete de EquipoFutbolAgregacion.
 
 
+ ----------
+|16/05/2024|
+ ----------
+-Correccion del paquete de EquipoFutbolAgregacion.
+-Subida al classroom la fecha de los examenes.
+-Paquete OrdenAgregacionIVA, hecho y subirlo para el classroom.
+
