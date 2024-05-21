@@ -127,7 +127,7 @@
  ----------
 |15/05/2024|
  ----------
--Continar con las practicas de java, con procedimientos y funciones.
+-Continuar con las practicas de java, con procedimientos y funciones.
 
  ----------
 |16/05/2024|
@@ -138,4 +138,5 @@
 |21/05/2024|
  ----------
 -Ver los cursos que se vieron hoy en clase.
+-Practica de cursores subida al classroom, con un ejemplo hecho.
 
