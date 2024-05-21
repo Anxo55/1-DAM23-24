@@ -134,3 +134,8 @@
  ----------
 -Continuar con la practica de funciones y procedimientos.
 
+ ----------
+|21/05/2024|
+ ----------
+-Ver los cursos que se vieron hoy en clase.
+

@@ -139,3 +139,9 @@
 -Subida al classroom la fecha de los examenes.
 -Paquete OrdenAgregacionIVA, hecho y subirlo para el classroom.
 
+ ----------
+|21/05/2024|
+ ----------
+-Creamos el paquete de geografia.
+-Donde creamos las clases departamento y municipio.
+
