@@ -45,7 +45,8 @@ public class Departamento {
         for(Municipio municipio: municipios) {
             if(municipio.getNombre().equals(nombre)) {
                 mun = municipio;
-                System.out.println(municipio.toString());
+                // si el sysout de abajo lo dejas sin comentar, es cuando te mostrará dos veces el objeto de hispanity repetido.
+                // System.out.println(municipio.toString());
             }
 
         }
@@ -78,8 +79,8 @@ public class Departamento {
     }
 
     public void listarMunicipios() {
-        System.out.println("Listado de los municipios");
         System.out.println("-------------------");
+        System.out.println("Listado de los municipios");
         for(int i=0; i<municipios.size(); i++) {
             System.out.println(municipios.get(i));
         }

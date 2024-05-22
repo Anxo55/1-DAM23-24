@@ -140,3 +140,11 @@
 -Ver los cursos que se vieron hoy en clase.
 -Practica de cursores subida al classroom, con un ejemplo hecho.
 
+ ----------
+|22/05/2024|
+ ----------
+-Configuracion del github.
+-Generar una clave ssh.
+-ClaveSSh creada, abrirla con el bloc de notas.
+-Da permisos denegados.
+
