@@ -127,3 +127,11 @@ UBUNTU:
 -Ver el trabajo que me falta por entregar.
 -Ver rutas absolutas y relativas.
 
+ ----------
+|22/05/2024|
+ ----------
+-Charla sobre la IA.
+-Terminar el trabajo de T4.
+-El de los colores, donde te deniega los permisos.
+-Trabajo del T8.4 de Usuarios y permisos entregado.
+

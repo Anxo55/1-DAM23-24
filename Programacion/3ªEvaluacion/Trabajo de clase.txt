@@ -145,3 +145,14 @@
 -Creamos el paquete de geografia.
 -Donde creamos las clases departamento y municipio.
 
+ ----------
+|22/05/2024|
+ ----------
+-Correccion del testGeografia por el fallo de duplicar el objeto de Hispanity.
+-Hoy vamos a ver ficheros.
+-Creamos el paquete de ficheros.
+-Creamos la clase LeerArchivo y EscribirArchivo.
+-Creamos el de LeerDirectorio.
+-Trabajo de clase para hacer.
+-Por ultimo sube la clase Asignatura.
+

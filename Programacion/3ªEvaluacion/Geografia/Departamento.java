@@ -80,10 +80,13 @@ public class Departamento {
     }
 
     public void listarMunicipios() {
-        System.out.println("Listado de los municipios");
         System.out.println("-------------------");
         for (Municipio municipio : municipios) {
             System.out.println(municipio);
+        }
+        System.out.println("Listado de los municipios");
+        for (int i = 0; i < municipios.size(); i++) {
+            System.out.println(municipios.get(i));
         }
     }
 }
