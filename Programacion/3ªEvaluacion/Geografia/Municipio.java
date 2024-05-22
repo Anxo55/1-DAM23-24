@@ -1,6 +1,6 @@
 package Geografia;
 
-public class Municipio implements Comparable{
+public class Municipio implements Comparable<Municipio> {
 
     private String nombre;
     private int poblacion;
@@ -53,12 +53,22 @@ public class Municipio implements Comparable{
     }
 
     @Override
-    public int compareTo(Object o) {
-        // aqui lo estamos casteando a un Municipio
-        Municipio obj = (Municipio) o;
-        return this.poblacion -  obj.getPoblacion();
+    public int compareTo(Municipio o) {
+        return this.poblacion - o.getPoblacion();
     }
 
-    
-    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+
+        Municipio municipio = (Municipio) obj;
+
+        return nombre != null ? nombre.equals(municipio.nombre) : municipio.nombre == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return nombre != null ? nombre.hashCode() : 0;
+    }
 }

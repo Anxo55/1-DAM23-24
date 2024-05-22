@@ -32,47 +32,49 @@ public class Departamento {
 
     // metodos de la clase Departamento
 
-
     // metodo agrega municipio
     public void agregarMunicipio(Municipio municipio) {
-        municipios.add(municipio);
-        Collections.sort(this.municipios);
+        if (!municipios.contains(municipio)) {
+            municipios.add(municipio);
+            Collections.sort(this.municipios);
+        } else {
+            System.out.println("El municipio " + municipio.getNombre() + " ya existe.");
+        }
     }
 
     // metodo para buscar el municipio
     public Municipio buscarMunicipio(String nombre) {
-        Municipio mun = null;
-        for(Municipio municipio: municipios) {
-            if(municipio.getNombre().equals(nombre)) {
-                mun = municipio;
-                System.out.println(municipio.toString());
+        for (Municipio municipio : municipios) {
+            if (municipio.getNombre().equalsIgnoreCase(nombre)) {
+                return municipio;
             }
-
         }
-        return mun;
+        return null;
     }
 
     // metodo para eliminar un municipio
     public void eliminarMunicipio(String nombre) {
-        municipios.remove(buscarMunicipio(nombre));
+        Municipio municipio = buscarMunicipio(nombre);
+        if (municipio != null) {
+            municipios.remove(municipio);
+        } else {
+            System.out.println("El municipio " + nombre + " no se encuentra.");
+        }
     }
 
-
     public void buscarMunicipioConPoblacionMayor(int poblacion) {
-
-        // Municipio mun = null;
-        for(Municipio municipio: municipios) {
-            if(municipio.getPoblacion() >= poblacion) {
-                System.out.println(municipio.toString());
+        for (Municipio municipio : municipios) {
+            if (municipio.getPoblacion() >= poblacion) {
+                System.out.println(municipio);
             }
         }
     }
 
-    // metodo de calculo de censo de poblacion del deaprtamento
+    // metodo de calculo de censo de poblacion del departamento
     public int calcularCensoPoblacionDepartamento() {
         int cen = 0;
-        for(Municipio municipio: municipios) {
-            cen+=municipio.getPoblacion();
+        for (Municipio municipio : municipios) {
+            cen += municipio.getPoblacion();
         }
         return cen;
     }
@@ -80,10 +82,8 @@ public class Departamento {
     public void listarMunicipios() {
         System.out.println("Listado de los municipios");
         System.out.println("-------------------");
-        for(int i=0; i<municipios.size(); i++) {
-            System.out.println(municipios.get(i));
+        for (Municipio municipio : municipios) {
+            System.out.println(municipio);
         }
-        
     }
-     
 }
