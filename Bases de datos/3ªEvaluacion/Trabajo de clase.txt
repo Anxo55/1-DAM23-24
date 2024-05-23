@@ -148,3 +148,10 @@
 -ClaveSSh creada, abrirla con el bloc de notas.
 -Da permisos denegados.
 
+ ----------
+|23/05/2024|
+ ----------
+-Empezar con la practica de cursores, arriba hay que declarar siempre las constantes o variables.
+-Siempre hay que usar un bucle fetch para recorrerlo hasta que sea done = TRUE.
+
+
