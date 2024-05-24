@@ -135,3 +135,9 @@ UBUNTU:
 -El de los colores, donde te deniega los permisos.
 -Trabajo del T8.4 de Usuarios y permisos entregado.
 
+ ----------
+|24/05/2024|
+ ----------
+-Subió un enlace a una pagina web.
+-Nos subió otro enlace sobre la IA por si queremos acercarnos y saber más de como está actualmente.
+

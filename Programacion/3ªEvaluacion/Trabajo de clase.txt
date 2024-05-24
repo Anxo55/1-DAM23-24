@@ -156,3 +156,19 @@
 -Trabajo de clase para hacer.
 -Por ultimo sube la clase Asignatura.
 
+ ----------
+|23/05/2024|
+ ----------
+-Revisando la clase Asignatura.
+-Creamos el testAsignatura para ejecutar la clase creada, para escribir y leer archivo.
+-En el testeo creamos un ArrayList para guardar el fichero
+-Vemos la practica que mandó para hacer, y ya terminamos con los ficheros.
+-Por ultimo creamos el paquete generico.
+-Entregado el ejercicio de practicaLEcturaEscritura.
+-Creamos la clase tripleta en el paquete de generico.
+
+ ----------
+|24/05/2024|
+ ----------
+-Subidas dos clases al classroom de ejemplos de clase genericas.
+
