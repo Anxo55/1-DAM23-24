@@ -33,6 +33,9 @@ SELECT cuadrado_de_un_numero(5);
 
 
 #9 Diseña una función que determine si un número dado es primo.
+SELECT esPrimo(17) AS EsPrimo; -- Retorna 1 (true) porque 17 es primo
+SELECT esPrimo(18) AS EsPrimo; -- Retorna 0 (false) porque 18 no es primo
 
 
 #10 Implementa un procedimiento almacenado que calcule la suma de los números pares del 1 al 100.
+CALL sumaNumerosPares();
