@@ -154,4 +154,10 @@
 -Empezar con la practica de cursores, arriba hay que declarar siempre las constantes o variables.
 -Siempre hay que usar un bucle fetch para recorrerlo hasta que sea done = TRUE.
 
+ ----------
+|27/05/2024|
+ ----------
+-Corrececion de los ejercicios de cursores en la segunda hora de clase.
+-En la primera hora mandó hacer los ejercicios.
+-Subidos todos los procedimientos y funciones con cada uno de sus titulos.
 
