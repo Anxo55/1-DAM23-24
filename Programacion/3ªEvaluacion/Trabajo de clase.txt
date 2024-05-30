@@ -177,4 +177,11 @@
  ----------
 -Creamos el paquete de Swing.
 
+ ----------
+|30/05/2024|
+ ----------
+-En el paquete de Swing hemos hecho varias practicas.
+-La ultima fue la de un menu, y me falta la de las figuras.
+-Cuando se termine, miras todos los paquetes que estén bien de cara al examen.
+-Hacer los examenes anteriores de repaso.
 
