@@ -161,3 +161,10 @@
 -En la primera hora mandó hacer los ejercicios.
 -Subidos todos los procedimientos y funciones con cada uno de sus titulos.
 
+ ----------
+|29/05/2024|
+ ----------
+-En el paquete de notas guardo la clase de VentanaPrincipal y creo la clase Main para poder ejecutar.
+-Creo el segundo paquete de la practia1, pero es mas grande que la anterior.
+-Paquete de la practica3 para corregir.
+

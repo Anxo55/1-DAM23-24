@@ -141,3 +141,10 @@ UBUNTU:
 -Subió un enlace a una pagina web.
 -Nos subió otro enlace sobre la IA por si queremos acercarnos y saber más de como está actualmente.
 
+ ----------
+|30/05/2024|
+ ----------
+-De ultimo tema subio lo de la shell script.
+-No es fijo que entre, por si acaso mirarlo y practica y ver el resto de pdfs para practicar de cara al examen, junto con
+ los trabajos que puso.
+
