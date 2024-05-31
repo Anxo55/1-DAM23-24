@@ -168,3 +168,8 @@
 -Creo el segundo paquete de la practia1, pero es mas grande que la anterior.
 -Paquete de la practica3 para corregir.
 
+ ----------
+|31/05/2024|
+ ----------
+-Terminar con los ejercicios de cursores y hacer los examenes del año pasado de repaso.
+

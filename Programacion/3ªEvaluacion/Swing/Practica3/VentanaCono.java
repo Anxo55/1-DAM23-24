@@ -1,0 +1,78 @@
+package Swing.Practica3;
+
+import java.awt.Container;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+
+public class VentanaCono extends JFrame implements ActionListener {
+    private Container contenedor;
+    private JLabel radio, altura, volumen, superficie;
+    private JTextField campoRadio, campoAltura;
+    private JButton calcular;
+
+    public VentanaCono() {
+        inicio();
+        setTitle("Cono");
+        setSize(280, 210);
+        setLocationRelativeTo(null);
+        setResizable(false);
+    }
+
+    private void inicio() {
+        contenedor = getContentPane();
+        contenedor.setLayout(null);
+
+        radio = new JLabel("Radio (cms):");
+        radio.setBounds(20, 20, 135, 23);
+        campoRadio = new JTextField();
+        campoRadio.setBounds(100, 20, 135, 23);
+
+        altura = new JLabel("Altura (cms):");
+        altura.setBounds(20, 50, 135, 23);
+        campoAltura = new JTextField();
+        campoAltura.setBounds(100, 50, 135, 23);
+
+        calcular = new JButton("Calcular");
+        calcular.setBounds(100, 80, 135, 23);
+        calcular.addActionListener(this);
+
+        volumen = new JLabel("Volumen (cm3):");
+        volumen.setBounds(20, 110, 135, 23);
+
+        superficie = new JLabel("Superficie (cm2):");
+        superficie.setBounds(20, 140, 135, 23);
+
+        contenedor.add(radio);
+        contenedor.add(campoRadio);
+        contenedor.add(altura);
+        contenedor.add(campoAltura);
+        contenedor.add(calcular);
+        contenedor.add(volumen);
+        contenedor.add(superficie);
+    }
+
+    public void actionPerformed(ActionEvent event) {
+        boolean error = false;
+        double radio = 0;
+        double altura = 0;
+        try {
+            radio = Double.parseDouble(campoRadio.getText());
+            altura = Double.parseDouble(campoAltura.getText());
+            Cono cono = new Cono(radio, altura);
+            volumen.setText("Volumen (cm3): " + String.format("%.2f", cono.calcularVolumen()));
+            superficie.setText("Superficie (cm2): " + String.format("%.2f", cono.calcularSuperficie()));
+        } catch (Exception e) {
+            error = true;
+        } finally {
+            if (error) {
+                JOptionPane.showMessageDialog(null, "Campo nulo o error en formato de numero", "Error", JOptionPane.ERROR_MESSAGE);
+            }
+        }
+    }
+}

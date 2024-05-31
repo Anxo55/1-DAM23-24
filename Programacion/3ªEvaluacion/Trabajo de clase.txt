@@ -185,3 +185,9 @@
 -Cuando se termine, miras todos los paquetes que estén bien de cara al examen.
 -Hacer los examenes anteriores de repaso.
 
+ ----------
+|31/05/2024|
+ ----------
+-Entregar la ultima practica de los ejercicios.
+-Despues de hacerlo, ponerme con los examenes de repaso, y ver todos los paquetes si están bien y ejecutan sin fallos.
+
