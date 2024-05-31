@@ -148,3 +148,14 @@ UBUNTU:
 -No es fijo que entre, por si acaso mirarlo y practica y ver el resto de pdfs para practicar de cara al examen, junto con
  los trabajos que puso.
 
+ ----------
+|31/05/2024|
+ ----------
+-Crontab -e.
+-Comando visto en clase.
+-rm crontest.
+-crontrab -r.
+-crontab -l.
+- **** cd ruta/donde/leer/script.
+- * * * * * cd Escritorio
+
