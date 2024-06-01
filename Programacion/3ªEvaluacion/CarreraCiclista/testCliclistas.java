@@ -64,25 +64,25 @@ public class testCliclistas {
 //		facil.calculaYMuestraTiemposGenerales();
 
 //		testeo Tomás 24/04	///////////////////////////////////////////////////////
-		System.out.println("\n--- TESTEO TOMÁS ---\n");
-		Carrera dificil = new Carrera("difícil", "Italia");
-		Equipo ineosTeam = new Equipo("INEOS Grenadiers", "UK");
-		dificil.añadirEquipo(movistarTeam);
-		dificil.añadirEquipo(ineosTeam);
+		// System.out.println("\n--- TESTEO TOMÁS ---\n");
+		// Carrera dificil = new Carrera("difícil", "Italia");
+		// Equipo ineosTeam = new Equipo("INEOS Grenadiers", "UK");
+		// dificil.añadirEquipo(movistarTeam);
+		// dificil.añadirEquipo(ineosTeam);
 
-		Velocista egan = new Velocista(7, "Egan Bernal", 360, 62);
-		ineosTeam.añadirCiclista(egan);
-		dificil.clasificacionGeneral.add(egan);
+		// Velocista egan = new Velocista(7, "Egan Bernal", 360, 62);
+		// ineosTeam.añadirCiclista(egan);
+		// dificil.clasificacionGeneral.add(egan);
 
-		Velocista geraint = new Velocista(8, "Geraint Thomas", 310, 62);
-		ineosTeam.añadirCiclista(geraint);
-		dificil.clasificacionGeneral.add(geraint);
+		// Velocista geraint = new Velocista(8, "Geraint Thomas", 310, 62);
+		// ineosTeam.añadirCiclista(geraint);
+		// dificil.clasificacionGeneral.add(geraint);
 
-		Contrarrelojista filippo = new Contrarrelojista(9, "Filippo Ganna", 62);
-		ineosTeam.añadirCiclista(filippo);
-		dificil.clasificacionGeneral.add(filippo);
+		// Contrarrelojista filippo = new Contrarrelojista(9, "Filippo Ganna", 62);
+		// ineosTeam.añadirCiclista(filippo);
+		// dificil.clasificacionGeneral.add(filippo);
 
-		dificil.calculaYMuestraTiemposGenerales();
+		// dificil.calculaYMuestraTiemposGenerales();
 
 	} // main
 } // clase

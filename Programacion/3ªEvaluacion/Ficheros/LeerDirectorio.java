@@ -6,6 +6,7 @@ public class LeerDirectorio {
 
     public static void main(String[] args) {
 
+        // esta clase lee todos los componentes que están localiados en esa ruta.
         File directorio = new File("C:\\Users\\anxoc\\OneDrive\\Escritorio\\DAM 23-24\\1-DAM23-24\\Programacion\\3ªEvaluacion");
 
         String[] archivos =  directorio.list();
