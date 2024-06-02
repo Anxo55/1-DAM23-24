@@ -197,4 +197,10 @@
 -Tras revisar todas las clase están completas, pero hay que cambiar la de inmueble.
 -Hacer el examen de repaso.
 
+ ----------
+|02/06/2024|
+ ----------
+-Edité el paquete de Biblioteca
+-Editar el de Inmueble y empezar los examenes.
+-El paquete de inmuebles completado.
 

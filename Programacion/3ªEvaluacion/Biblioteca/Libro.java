@@ -2,87 +2,90 @@ package Biblioteca;
 
 import java.io.Serializable;
 
-public class Libro implements Serializable{
+public class Libro implements Serializable {
+	private String titulo, autor, editorial, refBibliografica;
+	private int codigo,añoPublicacion, stock;
 	
-	protected String autor;
-	protected String titulo;
-	protected int anhoPublicacion;
-	protected String editorial;
-	protected String isbn;
-	
-	Libro(){}
-	
-	
-	public Libro( String titulo, String autor, int anhoPublicacion, String editorial, String isbn) {
-		super();
-		this.autor = autor;
+	public Libro(int codigo, String titulo, String autor, String editorial, String refBibliografica,
+			int añoPublicacion, int stock) {
+		
+		this.codigo = codigo;
 		this.titulo = titulo;
-		this.anhoPublicacion = anhoPublicacion;
-		this.editorial = editorial;
-		this.isbn = isbn;
-	}
-
-
-	public String getAutor() {
-		return autor;
-	}
-
-
-	public void setAutor(String autor) {
 		this.autor = autor;
+		this.editorial = editorial;
+		this.refBibliografica = refBibliografica;
+		this.añoPublicacion = añoPublicacion;
+		this.stock = stock;
+		
 	}
-
 
 	public String getTitulo() {
 		return titulo;
 	}
 
-
-	public void setTitulo(String genero) {
-		this.titulo = genero;
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
 	}
 
-
-	public int getAnhoPublicacion() {
-		return anhoPublicacion;
+	public String getAutor() {
+		return autor;
 	}
 
-
-	public void setAnhoPublicacion(int anhoPublicacion) {
-		this.anhoPublicacion = anhoPublicacion;
+	public void setAutor(String autor) {
+		this.autor = autor;
 	}
-
 
 	public String getEditorial() {
 		return editorial;
 	}
 
-
 	public void setEditorial(String editorial) {
 		this.editorial = editorial;
 	}
 
-
-	public String getIsbn() {
-		return isbn;
+	public String getRefBibliografica() {
+		return refBibliografica;
 	}
 
-
-	public void setIsbn(String isbn) {
-		this.isbn = isbn;
+	public void setRefBibliografica(String refBibliografica) {
+		this.refBibliografica = refBibliografica;
 	}
 
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+	public int getAñoPublicacion() {
+		return añoPublicacion;
+	}
+
+	public void setAñoPublicacion(int añoPublicacion) {
+		this.añoPublicacion = añoPublicacion;
+	}
+
+	
+	
+	
+	public int getStock() {
+		return stock;
+	}
+
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
 
 	@Override
 	public String toString() {
-		return "Libro [autor=" + autor + ", genero=" + titulo + ", anhoPublicacion=" + anhoPublicacion + ", editorial="
-				+ editorial + ", isbn=" + isbn + "]";
+		return "Libro [titulo=" + titulo + ", autor=" + autor + ", editorial=" + editorial + ", refBibliografica="
+				+ refBibliografica + ", codigo=" + codigo + ", añoPublicacion=" + añoPublicacion + "]";
 	}
 	
 	
-	
-	
-	
-	
+
+
 
 }
