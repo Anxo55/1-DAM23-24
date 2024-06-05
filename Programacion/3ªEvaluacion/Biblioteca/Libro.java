@@ -67,9 +67,6 @@ public class Libro implements Serializable {
 		this.añoPublicacion = añoPublicacion;
 	}
 
-	
-	
-	
 	public int getStock() {
 		return stock;
 	}

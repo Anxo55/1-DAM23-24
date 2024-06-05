@@ -260,7 +260,42 @@ CALL PromedioDuracionPorCategoria();
 -- 8. Actualizar Precio de Películas Antiguas
 -- Crear un cursor que actualice el precio de las películas lanzadas hace más de 5 años.
 
+CALL update_old_movie_prices();
 
+-- CREATE DEFINER=`root`@`localhost` PROCEDURE `update_old_movie_prices`()
+-- BEGIN
+    -- DECLARE done INT DEFAULT 0;
+    -- DECLARE movie_id INT;
+    -- DECLARE release_year YEAR;
+    
+    -- Declarar el cursor para seleccionar películas lanzadas hace más de 5 años
+    -- DECLARE cur CURSOR FOR
+        -- SELECT film_id, release_year 
+        -- FROM film 
+        -- WHERE release_year <= YEAR(CURDATE()) - 5;
+
+    -- Declarar el manejador para el final de los datos del cursor
+    -- DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+
+    -- Abrir el cursor
+    -- OPEN cur;
+
+    -- Bucle para recorrer cada película
+    -- read_loop: LOOP
+        -- FETCH cur INTO movie_id, release_year;
+        -- IF done THEN
+            -- LEAVE read_loop;
+        -- END IF;
+        
+        -- Actualizar el precio de la película
+        -- UPDATE film 
+        -- SET rental_rate = rental_rate * 1.10 
+        -- WHERE film_id = movie_id;
+    -- END LOOP;
+
+    -- Cerrar el cursor
+    -- CLOSE cur;
+-- END
 
 
 
