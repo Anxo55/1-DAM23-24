@@ -159,3 +159,27 @@ UBUNTU:
 - **** cd ruta/donde/leer/script.
 - * * * * * cd Escritorio
 
+ ----------
+|05/06/2024|
+ ----------
+-La practica del examen es a ordenador y con acceso a Internet.
+-El examen es 5 puntos teoria y 5 puntos de practica. 
+-Mirar las preguntas del kahoot que va a entrar.
+-Van a haber scripts y comandos.
+-Anotar algunas preguntas del kahoot.
+-Hacer el kahoot que está en el classroom como practica.
+-Proposito principal de bas scripting
+-Comando que usamos para borrar un directorio no vacio: rm -f.
+-echo $USER.
+-Comando mostrar el espacio vacio en disco utiliazdo.
+-Que hace el comando ls con la opcion -a.
+-La asignacion "var = 5" es correcta? FALSO.
+-Darle permisos de ejecucion al owner, como hacemos.
+-Que archivo contiene la configuracion de los usuarios de Linux.
+-Para saber en que directorio estoy: pwd.
+-Que es bash scripting.
+-Que contiene el directorio etc.
+-Telnet, protocolo menos seguro.
+-shebang.
+-Los comandos son case sensitive: VERDADERO.
+
