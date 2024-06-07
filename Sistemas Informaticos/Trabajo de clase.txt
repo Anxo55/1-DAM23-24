@@ -483,4 +483,9 @@ l4  caché.
 -ipconfig/all.
 -Fedora no es una distribucion empresarial de Linux.
 -Interfaz entre el nucleo del sistema operativo y el usuario: SHELL.
+-mv comando para mover por ejemplo: mv mover.txt carpetaPersonal.
+-crontab -e, crontab -r
+-Para dar permisos: sudo chmod 777 script.sh
+-crear un script: sudo nano script.sh
+-Y dentro del script hago que X carpeta se mueva para Y carpeta.
 
