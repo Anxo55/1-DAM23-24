@@ -1,8 +1,9 @@
 package segundo.gestesimal;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class Gestesimal {
+public class Gestesimal implements Serializable{
 
 
     

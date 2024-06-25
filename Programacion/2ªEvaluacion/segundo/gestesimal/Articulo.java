@@ -1,5 +1,6 @@
 package segundo.gestesimal;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 public class Articulo implements Serializable{
